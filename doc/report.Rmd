@@ -1,7 +1,12 @@
 ---
 title: "The Causal Impacts of 'Clutch' Situations on NBA Shooting Percentages"
 author: "Alexander Hinton"
-output: html_document
+always_allow_html: true
+output:
+ github_document:
+    pandoc_args: --webtex
+    toc: true
+    toc_depth: 1
 ---
 
 ```{r setup, include=FALSE}
@@ -16,19 +21,20 @@ library(gridExtra)
 
 ### Background
 
-Based on the perceived ability to perform in the most important situations, fans, media members and players alike love to use the term 'Clutch' to describe certain players. While highlight reels and biased memories may make it seem like our favourite players always deliver when the game is on the line, the reality is much different. A recent [article by Seth Partnow](https://theathletic.com/1142773/2019/08/20/the-clutch-factor-analyzing-hero-shots-in-the-nba/) showed that the average shooting percentage in 'clutch' situations was only around $30\%$, much lower than the conversion rate across all shot types. Even players widely considered to be "clutch", such as Kobe Bryant, had clutch shooting percentages right around this $30\%$ mark. The natural follow up question which arises is what makes these shots have such a low conversion rate. There are two main drivers which I hypothesize: 
+Based on the perceived ability to perform in the most important situations, fans, media members and players alike love to use the term `clutch` to describe certain players. While highlight reels and biased memories may make it seem like our favourite players always deliver when the game is on the line, the reality is much different. A recent [article by Seth Partnow](https://theathletic.com/1142773/2019/08/20/the-clutch-factor-analyzing-hero-shots-in-the-nba/) showed that the average shooting percentage in `clutch` situations was only around $30\%$, much lower than the conversion rate across all shot types. Even players widely considered to be "clutch", such as Kobe Bryant, had clutch shooting percentages right around this $30\%$ mark. The natural follow up question which arises is what makes these shots have such a low conversion rate. There are two main drivers which I hypothesize: 
 
 - Shots taken in these clutch situations are simply very difficult shots on average, in terms of defensive pressure and distance from the basket. 
-- The intensity of the situation, with the crowd standing on their feet, and the increased adrenaline causing faster heartrates and sweaty palms causes players to be less accurate in their shooting. 
+- The intensity of the situation, with the crowd standing on their feet, and the increased adrenaline causing faster heartrates and sweaty palms causes players to be less accurate in their shooting.
+\newline
 Of course, a combination of these two effects is also possible.<br>
 
 I aim to use matching techniques to perform a causal inference based analysis to determine whether there is in fact a causal impact of clutch situations reducing shooting percentage in the NBA, beyond simply taking more difficult shots. 
 
 
 #### Defining clutch
-Before continuing, the definition of what constitutes a clutch shot in this analysis needs to be established, as this term is inherently subject. I delegated any shot in the last 30" of a game, where the score was within 3 points (a one possession game) as a clutch shot, which is similar to the definition used by Partnow in the article referenced above. These are the shots where a timeout will often be taken beforehand, the crowd is all on their feet, and nerves and pressure of the moment would be highest. 
+Before continuing, the definition of what constitutes a clutch shot in this analysis needs to be established, as this term is inherently subject. I delegated any shot in the last $30$" of a game, where the score was within $3$ points (a one possession game) as a clutch shot, which is similar to the definition used by Partnow in the article referenced above. These are the shots where a timeout will often be taken beforehand, the crowd is all on their feet, and the nerves would be at their peak. 
 
-In terms of causal inference lingo, the `treatment` group will be these shot attempts which were taken in the clutch situations, while the `control` group will be all shot attempts outside of these situations, where the stakes, pressure and weight of the moment are assumed to be significantly less. 
+In terms of causal inference lingo, the `treatment` group will be these shot attempts which were taken in the clutch situations, while the `control` group will be all shot attempts outside of these situations, where the stakes and pressure of the moment are significantly less on average. 
 
 <!-- In order to isolate potential causal impacts I will use propensity score matching, as well as a more handpicked case-control matching strategy to find pairs of shots deemed to be very similar, with the difference being whether each shot was in a clutch situation or not. -->
 
@@ -36,9 +42,13 @@ In terms of causal inference lingo, the `treatment` group will be these shot att
 #### Gathering data
 In order to estimate a potential causal impact of the clutch situation on shooting accuracy, the difficulty of the shot must be controlled for. This requires quite granular data about each shot attempt. Fortunately, the website [NBA-savant](https://www.nbasavant.com/) provides detailed data on all NBA shots, including shot distance, distance to the closest defender, name of the closest defender, number of dribbles before the shot, etc. Unfortunately, the NBA stopped making this data public in January 2016, meaning the most recent NBA seasons could not be used in this analysis. I used all regular season shots from the 2013-2014 season, 2014-2015 season, and the 2015-2016 season until the granular shot data stopped being released. <br>
 
-While game clock information was available from the shot data, the score at the time the shot was taken was not. Using my definition of clutch from above, this score information is required. This info was gathered by merging the shot data with play-by-play data, and adding in the current score information which was unavailable in the shot charts. Approximately $80\%$ of shots were able to matched with shot events in the play by play data (small discrepancies in game clock at the time of shot mean not all shots were matched). 
+While game clock information was available from the shot data, the score at the time the shot was taken was not. Using my definition of clutch from above, this score information is required. This info was gathered by merging the shot data with play-by-play data, and adding in the current score information which was unavailable in the shot charts. 
 
-Once I had gathered the shot information I separated shots into four categories: clutch and non-clutch twos, and clutch and non-clutch threes. For two pointers, I only included shots that were at least 10 feet, as I wanted to be comparing jumpers, and did not think the same clutch effect would apply to lay-ups, dunks, put-backs etc. The control group of non-clutch shots consisted of any shot taken in the first three quarters of a game. Before diving into the causal inference approaches, it's important to have an idea what the data looks like.
+<!-- Approximately $80\%$ of shots were able to matched with shot events in the play by play data (small discrepancies in game clock at the time of shot meant not all shots were matched).  -->
+
+Once I had gathered the shot information I separated shots into four categories: clutch and non-clutch twos, and clutch and non-clutch threes. For two pointers, I only included shots that were from at least $10$ feet, as I wanted to be comparing jumpers, and did not think the same clutch effect would apply to lay-ups, dunks, put-backs etc. The control group of non-clutch shots consisted of any shot taken in the first three quarters of a game. I considered lumping all shot types together in order to increase sample sizes, but thought that if there truly is a crunch time, or clutch effect on shooting accuracy it may not be the same between two pointers and three pointers, and they should be treated separately. 
+\newline 
+Before diving into the causal inference approaches, it's important to have an idea what the data looks like.
 
 #### Summary stats
 ```{r summary stats, echo = FALSE}
@@ -61,8 +71,8 @@ rbind(all_clutch_twos, non_clutch_twos) %>%
            "Shot Distance" = shot_dist,
            "Defender Distance" = defend_dist,
            "Count" = n) %>% 
-   kable(caption = "Summary Stats: Averages for Clutch and Non-Clutch Two Point Shots",
-        format = 'html') %>%
+ kable(caption = "Summary Stats: Averages for Clutch and Non-Clutch Two Point Shots",
+      format = 'html') %>%
   kable_styling()
 ```
 
@@ -94,15 +104,16 @@ rbind(all_clutch_threes, non_clutch_threes) %>%
 Clearly there are some pretty stark differences in shooting percentages between non-clutch and clutch shots for both two pointers and three pointers. However, we are clearly not comparing apples to apples in terms of shot difficulty. For both two pointers and three pointers, the average clutch shot attempt is from farther away, has a closer defender and is off the back of a longer individual effort (more dribbles and a longer touch time). These in total make it obvious that average clutch shot attempts on average are much harder than non clutch attempts, and cannot be compared directly. A strategy to account for the difficulty of a shot is needed in order to make a fair comparison between a clutch shot and a non-clutch shot when trying to estimate a causal impact of the clutch situation on shooting accuracy. 
 
 #### Causal Inference in Observational Studies
-In an ideal world, randomized control trials are used to estimate the causal impact of a treament. In these situations, the treatment of interest is randomly allocated to the observational units (often people) in the study. Some outcome measure is calculated for both the treatmtent and control groups, and the difference in this outcome between groups is used as an estimate of the efficacy of the treatment. Due to the randomized nature of treatment assignment, the chance of biased estimates due to confounding is minimized. 
-Observational studies can be used to estimate causal treatment effects in certain situations. The main drawback and danger when using observational studies for causal inference is the potential for biased estimates due to confounding. In an observational study, treatment assignments have not been done randomly, which can be a problem if there are variables associated with both the treatment assignment and the outcome variable. These are called confounders. For example, in a study looking at the effectiveness of eating vegetables on health outcomes it would be naive to simply compare the outcomes of individuals eating veggie rich diets versus those who are not, as the individuals eating more veggies may also be excercising more, maybe have higher incomes, and these would both be correlated with higher health outcomes. This potential bias in estimates due to confounding variables is the main difficulty of performing causal inference on observational studies where treatments have not been explicitly assigned. 
+In an ideal world, randomized control trials are used to estimate the causal impact of a treament. In these situations, the treatment of interest is randomly allocated to the observational units (often people) in the study. Some outcome measure is calculated for both the treatment and control groups, and the difference in this outcome between groups is used as an estimate of the efficacy of the treatment. Due to the randomized nature of treatment assignment, the chance of biased estimates due to confounding is minimized. 
+\newline
+In situations where a randomized controlled trial is possible, observational studies can sometimes be used to estimate causal treatment effects. The main drawback and danger when using observational studies for causal inference is the potential for biased estimates due to confounding. In an observational study, treatment assignments have not been done randomly, which can be a problem if there are variables associated with both the treatment assignment and the outcome variable, which are known as confounders.  For example, in a study looking at the effectiveness of eating vegetables on health outcomes it would be naive to simply compare the outcomes of individuals eating veggie rich diets versus those who are not, as the individuals eating more veggies may also be excercising more, maybe have higher incomes, and these would both be correlated with higher health outcomes. This potential bias in estimates due to confounding variables is the main difficulty of performing causal inference on observational studies where treatments have not been explicitly assigned. 
 
 #### Matching strategies to estimate causal impacts
 Matching strategies are often used in an attempt to mimic a randomized experiment when using observational data. In matching studies, observations which received the treatment are carefully matched with observations in the control group such that the treatment and control group have similar covariate distributions.  
 
 In this analysis the treatment group (the clutch shots), clearly have different levels for many of the covariates of interest than the control groups (the non clutch shots). As seen above, defender distance, number of dribbles, touch time, etc. are all different between the treatment group levels at least in their mean levels.
 
-I attempted two different matching strategies in order to estimate a causal effect, the first was an exact matching approach, and the second was matching using propensity scores. Note that by matching each clutch shot to a non-clutch shot, the effect we are looking for is called the Average Treatment on the Treated (ATT). 
+I attempted two different matching strategies in order to estimate a causal effect, the first was an exact matching approach, and the second was matching using propensity scores. In both cases I attempted to match each clutch shot to a non-clutch shot, which means the effect I am looking for is known is called the Average Treatment effect on the Treated (ATT). 
 
 In the exact matching, I considered the following covariates to be important when quantifying the difficulty of a shot:  shot distance, defender distance, defender, number of dribbles, and touch time. 
 For each clutch shot, I attempted to find a shot in the non-clutch dataframe which would match on:
@@ -254,6 +265,13 @@ all_pos_threes %>%
                  defend_dist = round(mean(defender_distance),1),
                  propensity_score = round(mean(propensity_score), 4),
                   n = n()) %>%
+  rename("FG percentage" = fg_percentage,
+           "Defender Height"= defender_height,
+           "Dribbles" = dribbles,
+           "Touch time" = touch_time,
+           "Shot Distance" = shot_dist,
+           "Defender Distance" = defend_dist,
+           "Count" = n) %>% 
    kable(caption = "Summary Stats for 'Positive' Threes",
         format = 'html') %>%
   kable_styling()
@@ -270,7 +288,7 @@ all_pos_twos %>%
                  defend_dist = round(mean(defender_distance),1),
                  propensity_score = round(mean(propensity_score), 4),
                   n = n()) %>%
-   kable(caption = "Summary Stats for `Positive` Twos",
+   kable(caption = "Summary Stats for 'Positive' Twos",
         format = 'html') %>%
   kable_styling()
 ```
@@ -286,7 +304,7 @@ threes_prop <- all_pos_threes  %>%  group_by(isClutch) %>%
                     ggplot() + aes(x = clutch_shots, y = propensity_score) +
                                geom_jitter(size = 0.4, width = 0.3, alpha = 0.5) + 
                               labs(x = "isClutch", y = "Propensity Score", 
-                                   title = "Three Point Shots Propensity Scores") +
+                                   title = "Three Pointers Propensity Scores") +
                               coord_cartesian(ylim = c(0, 0.20)) 
 twos_prop <- all_pos_twos %>%  group_by(isClutch) %>%
                       sample_n(408)     %>% 
@@ -295,7 +313,7 @@ twos_prop <- all_pos_twos %>%  group_by(isClutch) %>%
                     ggplot() + aes(x = clutch_shots, y = propensity_score) +
                                geom_jitter(size = 0.4, width = 0.3, alpha = 0.5) + 
                               labs(x = "isClutch", y = "Propensity Score", 
-                                   title = "Two Point Shots Propensity Scores") +
+                                   title = "Two Pointers Propensity Scores") +
                               coord_cartesian(ylim = c(0, 0.20)) 
 
 grid.arrange(twos_prop, threes_prop, nrow = 1)
@@ -394,7 +412,9 @@ matched_ps_threes %>%
 
 
 
-As we have not matched explicitly on each covariate, we can see some differences in some mean covariate levels between the two groups, more noticeably in `touch time` and `dribbles`. We also see the massive benefit of using this procedure in that sample sizes can now be much larger, relative to the exact matching procedure above. Let's now check the standardized bias of each covariate, which is a ratio of the differences in mean covariate levels between the treatment and control group, divided by the standard deviation of the control group. Typically a threshold of $0.25$ is used as the maximum standardized bias for any covariate, to ensure that the matched groups are similar enough to perform valid inference.
+As we have not matched explicitly on each covariate, we can see some differences in some mean covariate levels between the two groups. We also see the massive benefit of using this procedure in that sample sizes can now be much larger, relative to the exact matching procedure above. Let's now check the standardized bias of each covariate, which is a ratio of the differences in mean covariate levels between the treatment and control group, divided by the standard deviation of the treatment group. 
+$\frac{\bar{X_t}-\bar{X_c}}{\sigma_t}$. The maximum standardized bias for any covariate should be nor more than $0.25$ to ensure that the matched groups are similar enough to perform valid inference.
+
 ```{r, echo=FALSE}
 standardized_bias <- function(col, data){
   clutch <- data %>% filter(isClutch == 1)
@@ -527,7 +547,7 @@ As expected based on the summary stats of the matched data, the estimate associa
 #### Discussions
 Based on the analysis, it appears there may be a causal impact of `clutch` situations negatively impacting shooting percentage, even after accounting for the difficulty of the shot attempt with granular data on the shot situation and difficulty. However, there still may be unobservable characteristics of the shots which we have not captured in our covariates which may be systematically different between the clutch and non clutch attempts. While we have captured defender distance and height, it is not possible to estimate defender _effort_, which could plausibly be much different between an average shot, and an average clutch shot. Additionally, while we account for closest defender, it's possible many of these shots could have had double teams, where the second defender could still have an impact on shot make probability. It's hard to know if these sort of characteristics could be confounding the results, as they would require optical tracking data to capture, but it also seems that the mental stress and the body's subsequent physiological response in response to the `clutch` situations have a negative causal impact on shot making probabilities.  
 
-<!-- - Could I have lumped both two point shots and three point shots together? Maybe, as that would have increased the sample sizes and precision of estimates, perhaps leading to statistical significance. I was only including only shots >= 10 feet, so they are all jump shots, and perhaps can all be compared. I chose not to do this as I thought if there truly is a crunch time, or clutch effect on shooting accuracy it may not be the same between two pointers and three pointers, and they should be treated separately.  -->
+<!-- - Could I have lumped both two point shots and three point shots together? Maybe, as that would have increased the sample sizes and precision of estimates, perhaps leading to statistical significance. I was only including only shots >= 10 feet, so they are all jump shots, and perhaps can all be compared.   -->
 <!-- - I debated splitting the data even further and looking at situations when the shot taker is tied or leading the game versus shots when the shot taker is behind. The psychology and pressure associated with shooting to win (in a tied game), versus shooting not to lose (in a game down 2-3 points) may have heterogenous effects on the clutch shot impact on shooting percentage. -->
 
 ## References
