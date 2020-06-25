@@ -1,0 +1,485 @@
+name,team_name,game_date,seconds_remaining,shot_made_flag,action_type,shot_type,shot_distance,dribbles,touch_time,defender_name,defender_distance,defender_height,isClutch,year
+Randy Foye,Denver Nuggets,2014-02-03,0,1,Fadeaway Jump Shot,3PT Field Goal,29,1,1.7,"Griffin, Blake",4.0,81.0,1,2014
+Mike Dunleavy,Chicago Bulls,2013-12-13,5,1,Jump Bank Shot,3PT Field Goal,26,0,0.7,"Henson, John",4.8,81.0,1,2014
+Jameer Nelson,Orlando Magic,2014-01-19,11,0,Jump Shot,3PT Field Goal,24,0,0.9,"Bradley, Avery",3.8,75.0,1,2014
+JR Smith,New York Knicks,2014-04-04,2,0,Jump Shot,3PT Field Goal,24,0,0.9,"Beal, Bradley",2.5,75.0,1,2014
+Kevin Love,Minnesota Timberwolves,2014-04-04,1,0,Jump Shot,3PT Field Goal,24,1,2.2,"Bosh, Chris",3.9,83.0,1,2014
+Rodney Stuckey,Detroit Pistons,2014-01-22,0,0,Jump Shot,3PT Field Goal,24,0,1.0,"Middleton, Khris",0.4,79.0,1,2014
+Randy Foye,Denver Nuggets,2014-01-23,17,0,Jump Shot,3PT Field Goal,27,6,5.9,"Lillard, Damian",4.2,74.0,1,2014
+Jimmy Butler,Chicago Bulls,2014-01-17,0,0,Jump Shot,3PT Field Goal,25,6,7.5,Nene,1.1,83.0,1,2014
+Evan Fournier,Denver Nuggets,2013-10-30,29,0,Jump Shot,3PT Field Goal,23,0,0.7,"Cousins, DeMarcus",5.4,83.0,1,2014
+Trevor Ariza,Washington Wizards,2013-12-09,5,0,Jump Shot,3PT Field Goal,22,0,4.2,"Foye, Randy",5.3,76.0,1,2014
+Jose Calderon,Dallas Mavericks,2014-01-15,3,0,Jump Shot,3PT Field Goal,25,0,0.8,"Crawford, Jamal",4.7,77.0,1,2014
+Robbie Hummel,Minnesota Timberwolves,2014-03-19,2,0,Jump Shot,3PT Field Goal,23,0,0.8,"Nowitzki, Dirk",9.2,84.0,1,2014
+Al Harrington,Washington Wizards,2014-02-27,20,0,Jump Shot,3PT Field Goal,22,0,0.6,"Patterson, Patrick",6.3,80.0,1,2014
+Dion Waiters,Cleveland Cavaliers,2014-02-09,0,0,Jump Shot,3PT Field Goal,32,4,3.4,"Lee, Courtney",4.7,77.0,1,2014
+Anthony Morrow,New Orleans Pelicans,2014-03-12,15,0,Jump Shot,3PT Field Goal,26,0,0.6,"Johnson, James",4.4,79.0,1,2014
+Kevin Durant,Oklahoma City Thunder,2013-10-30,20,0,Jump Shot,3PT Field Goal,24,4,10.2,"Hayward, Gordon",4.5,79.0,1,2014
+Darren Collison,Los Angeles Clippers,2014-04-03,26,0,Jump Shot,3PT Field Goal,23,0,0.8,"Ellis, Monta",4.3,75.0,1,2014
+Victor Oladipo,Orlando Magic,2014-03-14,0,0,Jump Shot,3PT Field Goal,27,6,5.8,"Ariza, Trevor",4.2,80.0,1,2014
+Tyreke Evans,New Orleans Pelicans,2014-04-09,19,0,Jump Shot,3PT Field Goal,25,7,6.8,"Morris, Markieff",4.6,80.0,1,2014
+Joe Johnson,Brooklyn Nets,2013-11-09,11,0,Jump Shot,3PT Field Goal,24,0,0.7,"Stephenson, Lance",3.4,78.0,1,2014
+Stephen Curry,Golden State Warriors,2014-04-10,0,0,Jump Shot,3PT Field Goal,29,0,0.4,"Brooks, Aaron",5.5,72.0,1,2014
+Evan Fournier,Denver Nuggets,2014-04-10,15,0,Jump Shot,3PT Field Goal,26,0,0.6,"Thompson, Klay",5.5,78.0,1,2014
+Jameer Nelson,Orlando Magic,2014-01-02,0,0,Jump Shot,3PT Field Goal,23,0,0.5,"Dellavedova, Matthew",2.4,75.0,1,2014
+Al Jefferson,Charlotte Bobcats,2013-12-30,10,0,Jump Shot,3PT Field Goal,24,0,0.8,"Williams, Marvin",5.3,80.0,1,2014
+Kyle Lowry,Toronto Raptors,2014-01-05,5,0,Jump Shot,3PT Field Goal,26,5,4.4,"Cole, Norris",3.5,74.0,1,2014
+Brandon Jennings,Detroit Pistons,2013-12-18,18,0,Jump Shot,3PT Field Goal,25,21,12.7,"Bradley, Avery",2.3,75.0,1,2014
+LeBron James,Miami Heat,2013-12-27,0,0,Jump Shot,3PT Field Goal,25,4,3.8,"Cousins, DeMarcus",4.9,83.0,1,2014
+Randy Foye,Denver Nuggets,2013-12-20,5,0,Jump Shot,3PT Field Goal,28,0,1.0,"Bledsoe, Eric",5.7,73.0,1,2014
+Kyrie Irving,Cleveland Cavaliers,2013-12-17,0,0,Jump Shot,3PT Field Goal,33,0,0.3,"Batum, Nicolas",8.6,81.0,1,2014
+Dirk Nowitzki,Dallas Mavericks,2014-03-25,30,0,Jump Shot,3PT Field Goal,25,0,0.7,"Durant, Kevin",4.9,82.0,1,2014
+Luol Deng,Chicago Bulls,2013-11-02,30,0,Jump Shot,3PT Field Goal,24,0,0.7,"Turner, Evan",6.9,78.0,1,2014
+Brian Roberts,New Orleans Pelicans,2014-02-21,1,0,Jump Shot,3PT Field Goal,38,5,2.5,"Walker, Kemba",2.7,72.0,1,2014
+Wesley Matthews,Portland Trail Blazers,2014-04-13,1,0,Jump Shot,3PT Field Goal,22,0,0.5,"Green, Draymond",3.8,78.0,1,2014
+Jared Sullinger,Boston Celtics,2014-04-11,5,0,Jump Shot,3PT Field Goal,28,0,0.9,"Jefferson, Al",3.6,82.0,1,2014
+Greivis Vasquez,Toronto Raptors,2014-01-20,15,0,Jump Shot,3PT Field Goal,23,0,0.6,"Henderson, Gerald",6.9,77.0,1,2014
+Wesley Matthews,Portland Trail Blazers,2014-03-03,12,0,Jump Shot,3PT Field Goal,22,1,2.4,"Bazemore, Kent",1.6,76.0,1,2014
+Damian Lillard,Portland Trail Blazers,2014-02-11,0,0,Jump Shot,3PT Field Goal,23,0,0.1,"Sefolosha, Thabo",2.4,78.0,1,2014
+Khris Middleton,Milwaukee Bucks,2013-11-27,15,0,Jump Shot,3PT Field Goal,24,2,1.8,Nene,1.5,83.0,1,2014
+Josh McRoberts,Charlotte Bobcats,2013-12-27,3,0,Jump Shot,3PT Field Goal,25,0,1.0,"Jackson, Reggie",15.0,75.0,1,2014
+Isaiah Thomas,Sacramento Kings,2013-11-05,3,0,Jump Shot,3PT Field Goal,25,0,0.9,"Millsap, Paul",2.8,79.0,1,2014
+Marvin Williams,Utah Jazz,2013-12-27,27,0,Jump Shot,3PT Field Goal,25,0,0.9,"Meeks, Jodie",5.9,76.0,1,2014
+Monta Ellis,Dallas Mavericks,2014-04-16,13,1,Jump Shot,3PT Field Goal,25,0,0.9,"Lee, Courtney",3.5,77.0,1,2014
+Brandon Jennings,Detroit Pistons,2014-04-16,1,0,Jump Shot,3PT Field Goal,30,0,0.8,"Westbrook, Russell",3.1,75.0,1,2014
+Patrick Beverley,Houston Rockets,2014-01-24,0,0,Jump Shot,3PT Field Goal,24,0,1.5,"Conley, Mike",4.5,73.0,1,2014
+Paul George,Indiana Pacers,2014-02-09,26,0,Jump Shot,3PT Field Goal,25,0,1.2,"Vucevic, Nikola",6.7,83.0,1,2014
+Ryan Anderson,New Orleans Pelicans,2013-12-21,5,0,Jump Shot,3PT Field Goal,24,2,1.8,"Aldridge, LaMarcus",3.7,83.0,1,2014
+Dwight Buycks,Toronto Raptors,2014-04-16,7,0,Jump Shot,3PT Field Goal,24,1,1.9,"Hardaway Jr., Tim",3.3,77.0,1,2014
+Paul Pierce,Brooklyn Nets,2014-01-27,0,0,Jump Shot,3PT Field Goal,29,5,5.5,"Johnson, Amir",2.7,81.0,1,2014
+Mike Conley,Memphis Grizzlies,2014-02-22,6,0,Jump Shot,3PT Field Goal,29,0,1.0,"Jefferson, Al",6.8,82.0,1,2014
+Steve Blake,Los Angeles Lakers,2013-11-15,12,0,Jump Shot,3PT Field Goal,23,0,0.8,"Gasol, Marc",5.8,83.0,1,2014
+JJ Redick,Los Angeles Clippers,2013-11-06,26,0,Jump Shot,3PT Field Goal,25,1,1.7,"Nelson, Jameer",7.2,72.0,1,2014
+Jarrett Jack,Cleveland Cavaliers,2013-11-01,12,0,Jump Shot,3PT Field Goal,27,2,1.9,"Henderson, Gerald",4.0,77.0,1,2014
+James Harden,Houston Rockets,2014-03-09,8,1,Jump Shot,3PT Field Goal,24,0,0.9,"Matthews, Wesley",1.7,76.0,1,2014
+Ryan Anderson,New Orleans Pelicans,2013-12-11,27,0,Jump Shot,3PT Field Goal,25,0,0.7,"Smith, Josh",7.6,81.0,1,2014
+Rajon Rondo,Boston Celtics,2014-01-17,1,0,Jump Shot,3PT Field Goal,24,6,5.5,"Gasol, Pau",5.8,84.0,1,2014
+Eric Bledsoe,Phoenix Suns,2013-11-01,0,1,Jump Shot,3PT Field Goal,24,7,14.4,"Hayward, Gordon",4.7,79.0,1,2014
+Nicolas Batum,Portland Trail Blazers,2014-02-12,29,0,Jump Shot,3PT Field Goal,26,0,1.8,"Crawford, Jamal",4.7,77.0,1,2014
+Mo Williams,Portland Trail Blazers,2013-12-07,10,0,Jump Shot,3PT Field Goal,25,0,1.0,"Nowitzki, Dirk",11.8,84.0,1,2014
+Larry Sanders,Milwaukee Bucks,2014-01-15,2,0,Jump Shot,3PT Field Goal,26,0,1.1,"Miller, Mike",8.0,80.0,1,2014
+Leandro Barbosa,Phoenix Suns,2014-01-11,11,0,Jump Shot,3PT Field Goal,24,0,0.8,"Jennings, Brandon",7.7,73.0,1,2014
+Nate Wolters,Milwaukee Bucks,2014-02-18,29,1,Jump Shot,3PT Field Goal,26,10,7.7,"Harris, Tobias",4.4,80.0,1,2014
+Gerald Green,Phoenix Suns,2013-11-06,1,0,Jump Shot,3PT Field Goal,29,5,4.2,"Belinelli, Marco",1.9,77.0,1,2014
+Steve Blake,Los Angeles Lakers,2013-11-07,1,1,Jump Shot,3PT Field Goal,25,0,0.6,"Howard, Dwight",7.0,82.0,1,2014
+Victor Oladipo,Orlando Magic,2013-11-08,0,0,Jump Shot,3PT Field Goal,44,4,2.6,"Bradley, Avery",2.8,75.0,1,2014
+Brandon Knight,Milwaukee Bucks,2014-02-03,2,1,Jump Shot,3PT Field Goal,25,19,16.4,"Felton, Raymond",3.7,73.0,1,2014
+Jason Terry,Brooklyn Nets,2013-11-08,0,0,Jump Shot,3PT Field Goal,32,0,1.2,"Ariza, Trevor",11.0,80.0,1,2014
+Austin Rivers,New Orleans Pelicans,2014-03-12,0,0,Jump Shot,3PT Field Goal,65,1,0.5,"Conley, Mike",3.9,73.0,1,2014
+Timofey Mozgov,Denver Nuggets,2014-03-31,4,0,Jump Shot,3PT Field Goal,25,0,0.6,"Randolph, Zach",4.6,81.0,1,2014
+Carmelo Anthony,New York Knicks,2014-02-03,19,1,Jump Shot,3PT Field Goal,25,0,1.2,"Middleton, Khris",4.6,79.0,1,2014
+Carmelo Anthony,New York Knicks,2014-02-03,0,0,Jump Shot,3PT Field Goal,26,1,1.0,"Ilyasova, Ersan",3.0,81.0,1,2014
+Nicolas Batum,Portland Trail Blazers,2014-02-12,20,0,Jump Shot,3PT Field Goal,27,1,3.2,"Crawford, Jamal",0.8,77.0,1,2014
+Darius Miller,New Orleans Pelicans,2014-04-04,8,0,Jump Shot,3PT Field Goal,24,0,0.8,"Williams, Marvin",5.5,80.0,1,2014
+Rudy Gay,Sacramento Kings,2014-03-16,21,0,Jump Shot,3PT Field Goal,24,0,1.4,"Brewer, Corey",3.0,81.0,1,2014
+John Wall,Washington Wizards,2014-03-14,10,1,Jump Shot,3PT Field Goal,26,0,1.5,"Harris, Tobias",4.2,80.0,1,2014
+Glen Davis,Orlando Magic,2013-12-15,2,0,Jump Shot,3PT Field Goal,24,1,1.4,"Sefolosha, Thabo",3.3,78.0,1,2014
+Nick Young,Los Angeles Lakers,2013-11-26,15,0,Jump Shot,3PT Field Goal,27,0,0.9,Nene,5.9,83.0,1,2014
+Kevin Martin,Minnesota Timberwolves,2014-04-16,30,0,Jump Shot,3PT Field Goal,25,0,1.0,"Hayward, Gordon",5.9,79.0,1,2014
+James Johnson,Memphis Grizzlies,2014-01-07,13,1,Jump Shot,3PT Field Goal,25,2,2.6,"Belinelli, Marco",11.0,77.0,1,2014
+Paul George,Indiana Pacers,2014-03-04,0,0,Jump Shot,3PT Field Goal,29,0,0.6,"Bogut, Andrew",4.5,84.0,1,2014
+Goran Dragic,Phoenix Suns,2014-02-23,0,0,Jump Shot,3PT Field Goal,25,1,1.8,"Lin, Jeremy",2.4,75.0,1,2014
+James Anderson,Philadelphia 76ers,2013-11-13,6,1,Jump Shot,3PT Field Goal,25,1,1.3,"Lin, Jeremy",2.5,75.0,1,2014
+Tony Wroten,Philadelphia 76ers,2013-11-13,0,0,Jump Shot,3PT Field Goal,58,2,1.6,"Lin, Jeremy",11.1,75.0,1,2014
+Matt Barnes,Los Angeles Clippers,2014-02-03,6,1,Jump Shot,3PT Field Goal,25,0,0.7,"Faried, Kenneth",4.8,80.0,1,2014
+Shane Battier,Miami Heat,2013-10-30,19,0,Jump Shot,3PT Field Goal,23,0,0.6,"Young, Thaddeus",5.1,80.0,1,2014
+Dion Waiters,Cleveland Cavaliers,2014-01-05,24,0,Jump Shot,3PT Field Goal,25,12,9.2,"Hibbert, Roy",6.0,86.0,1,2014
+Darius Miller,New Orleans Pelicans,2014-01-15,2,0,Jump Shot,3PT Field Goal,25,0,0.6,"Lin, Jeremy",4.8,75.0,1,2014
+Paul Pierce,Brooklyn Nets,2014-02-01,4,0,Jump Shot,3PT Field Goal,23,1,1.1,"Stephenson, Lance",1.3,78.0,1,2014
+Kevin Love,Minnesota Timberwolves,2013-11-04,1,0,Jump Shot,3PT Field Goal,25,0,1.1,"Thompson, Tristan",3.0,81.0,1,2014
+Isaiah Thomas,Sacramento Kings,2014-03-16,17,0,Jump Shot,3PT Field Goal,25,0,0.9,"Rubio, Ricky",1.3,75.0,1,2014
+Jrue Holiday,New Orleans Pelicans,2013-12-30,18,0,Jump Shot,3PT Field Goal,24,12,10.5,"Matthews, Wesley",4.6,76.0,1,2014
+James Harden,Houston Rockets,2014-02-20,1,0,Jump Shot,3PT Field Goal,26,1,1.5,"Green, Draymond",3.4,78.0,1,2014
+Jeff Green,Boston Celtics,2014-02-19,5,0,Jump Shot,3PT Field Goal,24,4,3.2,"Morris, Markieff",3.1,80.0,1,2014
+Klay Thompson,Golden State Warriors,2014-03-16,11,1,Jump Shot,3PT Field Goal,24,0,0.7,"Lillard, Damian",7.3,74.0,1,2014
+Kemba Walker,Charlotte Bobcats,2013-11-01,17,0,Jump Shot,3PT Field Goal,25,23,21.6,"Irving, Kyrie",2.1,74.0,1,2014
+Jamal Crawford,Los Angeles Clippers,2013-12-25,0,0,Jump Shot,3PT Field Goal,28,0,0.6,"Iguodala, Andre",16.6,78.0,1,2014
+Jordan Crawford,Boston Celtics,2013-12-31,6,0,Jump Shot,3PT Field Goal,25,0,1.0,"Mack, Shelvin",5.5,75.0,1,2014
+Kawhi Leonard,San Antonio Spurs,2013-11-08,19,0,Jump Shot,3PT Field Goal,25,0,0.9,"Iguodala, Andre",5.1,78.0,1,2014
+Gordon Hayward,Utah Jazz,2013-10-30,2,0,Jump Shot,3PT Field Goal,28,3,3.1,"Durant, Kevin",7.4,82.0,1,2014
+Nicolas Batum,Portland Trail Blazers,2013-12-26,5,1,Jump Shot,3PT Field Goal,25,0,1.8,"Paul, Chris",1.4,73.0,1,2014
+Gerald Green,Phoenix Suns,2013-11-19,0,0,Jump Shot,3PT Field Goal,56,0,0.4,"Cousins, DeMarcus",6.2,83.0,1,2014
+Jeff Green,Boston Celtics,2014-01-22,1,0,Jump Shot,3PT Field Goal,28,0,1.1,"Ariza, Trevor",4.3,80.0,1,2014
+Serge Ibaka,Oklahoma City Thunder,2014-01-14,11,0,Jump Shot,3PT Field Goal,22,0,0.9,"Conley, Mike",5.9,73.0,1,2014
+Ramon Sessions,Milwaukee Bucks,2014-03-18,0,0,Jump Shot,3PT Field Goal,26,2,3.3,"Matthews, Wesley",2.6,76.0,1,2014
+Shawne Williams,Los Angeles Lakers,2013-12-29,20,0,Jump Shot,3PT Field Goal,26,0,0.9,"Young, Thaddeus",9.4,80.0,1,2014
+Reggie Jackson,Oklahoma City Thunder,2014-01-14,0,0,Jump Shot,3PT Field Goal,58,1,0.9,"Conley, Mike",3.3,73.0,1,2014
+John Wall,Washington Wizards,2014-02-05,27,0,Jump Shot,3PT Field Goal,38,7,8.8,"Green, Danny",4.0,78.0,1,2014
+Paul George,Indiana Pacers,2014-02-07,12,0,Jump Shot,3PT Field Goal,25,0,0.9,"Batum, Nicolas",2.1,81.0,1,2014
+Paul George,Indiana Pacers,2013-12-18,4,0,Jump Shot,3PT Field Goal,25,0,0.7,"James, LeBron",2.7,81.0,1,2014
+Kyrie Irving,Cleveland Cavaliers,2014-02-25,10,0,Jump Shot,3PT Field Goal,25,10,6.9,"Johnson, Amir",3.9,81.0,1,2014
+Paul Pierce,Brooklyn Nets,2013-11-27,2,0,Jump Shot,3PT Field Goal,27,6,5.4,"Gasol, Pau",5.7,84.0,1,2014
+Caron Butler,Milwaukee Bucks,2013-11-22,8,1,Jump Shot,3PT Field Goal,23,0,0.6,"Turner, Evan",4.6,78.0,1,2014
+Nick Young,Los Angeles Lakers,2014-01-14,9,0,Jump Shot,3PT Field Goal,26,4,3.5,"Waiters, Dion",2.5,75.0,1,2014
+JR Smith,New York Knicks,2014-01-03,19,0,Jump Shot,3PT Field Goal,25,0,1.0,"Brooks, Aaron",14.2,72.0,1,2014
+Mike Dunleavy,Chicago Bulls,2013-11-22,12,0,Jump Shot,3PT Field Goal,26,0,0.8,"Lillard, Damian",3.4,74.0,1,2014
+Luol Deng,Chicago Bulls,2013-11-22,0,0,Jump Shot,3PT Field Goal,29,0,0.9,"Matthews, Wesley",4.8,76.0,1,2014
+Mike Conley,Memphis Grizzlies,2014-02-22,1,0,Jump Shot,3PT Field Goal,25,1,1.6,"Henderson, Gerald",3.1,77.0,1,2014
+Brian Roberts,New Orleans Pelicans,2014-02-22,0,0,Jump Shot,3PT Field Goal,77,0,0.3,"Wall, John",2.9,76.0,1,2014
+Monta Ellis,Dallas Mavericks,2013-11-20,19,0,Jump Shot,3PT Field Goal,25,11,9.8,"Beverley, Patrick",4.6,73.0,1,2014
+Eric Gordon,New Orleans Pelicans,2013-11-26,1,0,Jump Shot,3PT Field Goal,22,0,0.7,"Curry, Stephen",7.7,75.0,1,2014
+JR Smith,New York Knicks,2014-02-18,24,0,Jump Shot,3PT Field Goal,23,0,0.8,"Lee, Courtney",5.8,77.0,1,2014
+Arron Afflalo,Orlando Magic,2014-03-28,7,1,Jump Shot,3PT Field Goal,26,2,5.0,"Henderson, Gerald",7.1,77.0,1,2014
+Nick Young,Los Angeles Lakers,2014-03-27,0,0,Jump Shot,3PT Field Goal,26,0,0.2,"Udoh, Ekpe",3.9,82.0,1,2014
+Brandon Knight,Milwaukee Bucks,2013-12-06,15,1,Jump Shot,3PT Field Goal,26,3,3.3,"Wall, John",4.8,76.0,1,2014
+Gerald Wallace,Boston Celtics,2014-01-10,0,0,Jump Shot,3PT Field Goal,27,0,0.7,"Bogut, Andrew",4.6,84.0,1,2014
+Trey Burke,Utah Jazz,2014-03-22,1,1,Jump Shot,3PT Field Goal,23,0,0.6,"Oladipo, Victor",4.4,76.0,1,2014
+Jeff Teague,Atlanta Hawks,2013-12-02,4,1,Jump Shot,3PT Field Goal,25,8,6.8,"Leonard, Kawhi",2.8,79.0,1,2014
+Kyrie Irving,Cleveland Cavaliers,2013-12-29,9,1,Jump Shot,3PT Field Goal,25,7,5.8,"Thompson, Klay",3.7,78.0,1,2014
+Monta Ellis,Dallas Mavericks,2014-03-23,0,0,Jump Shot,3PT Field Goal,25,8,8.0,"Anderson, Alan",4.7,78.0,1,2014
+Damian Lillard,Portland Trail Blazers,2013-12-30,10,1,Jump Shot,3PT Field Goal,26,6,4.8,"Aminu, Al-Farouq",4.6,80.0,1,2014
+Trevor Ariza,Washington Wizards,2014-01-25,10,0,Jump Shot,3PT Field Goal,24,1,1.6,"Burks, Alec",2.4,78.0,1,2014
+Paul Pierce,Brooklyn Nets,2014-03-24,24,1,Jump Shot,3PT Field Goal,25,0,1.0,"Aminu, Al-Farouq",2.0,80.0,1,2014
+Glen Davis,Orlando Magic,2013-12-03,18,1,Jump Shot,3PT Field Goal,25,2,2.7,"Carter-Williams, Michael",5.2,77.0,1,2014
+John Wall,Washington Wizards,2014-01-25,0,0,Jump Shot,3PT Field Goal,33,1,0.8,"Jefferson, Richard",3.7,79.0,1,2014
+Jose Calderon,Dallas Mavericks,2014-03-25,26,1,Jump Shot,3PT Field Goal,24,0,0.8,"Durant, Kevin",2.5,82.0,1,2014
+Timofey Mozgov,Denver Nuggets,2014-01-29,0,0,Jump Shot,3PT Field Goal,79,0,1.1,"Jefferson, Al",19.3,82.0,1,2014
+Nicolas Batum,Portland Trail Blazers,2013-12-04,29,1,Jump Shot,3PT Field Goal,24,0,1.0,"Durant, Kevin",12.5,82.0,1,2014
+Ty Lawson,Denver Nuggets,2013-12-30,2,0,Jump Shot,3PT Field Goal,24,9,8.6,"Bosh, Chris",4.8,83.0,1,2014
+Chris Singleton,Washington Wizards,2013-12-06,1,0,Jump Shot,3PT Field Goal,23,0,0.8,"Middleton, Khris",5.8,79.0,1,2014
+George Hill,Indiana Pacers,2014-02-07,8,1,Jump Shot,3PT Field Goal,25,0,0.5,"Matthews, Wesley",1.6,76.0,1,2014
+Michael Beasley,Miami Heat,2013-12-30,30,1,Jump Shot,3PT Field Goal,26,0,0.7,"Arthur, Darrell",6.8,81.0,1,2014
+Ben McLemore,Sacramento Kings,2013-12-07,3,1,Jump Shot,3PT Field Goal,24,1,1.1,"Jefferson, Richard",8.8,79.0,1,2014
+Brandon Jennings,Detroit Pistons,2014-01-24,0,0,Jump Shot,3PT Field Goal,49,1,1.5,"Roberts, Brian",4.0,73.0,1,2014
+Jamal Crawford,Los Angeles Clippers,2014-03-26,0,0,Jump Shot,3PT Field Goal,27,1,1.7,"Miller, Darius",2.2,78.0,1,2014
+Wesley Matthews,Portland Trail Blazers,2013-12-31,27,0,Jump Shot,3PT Field Goal,23,1,1.9,"Sefolosha, Thabo",4.0,78.0,1,2014
+Jarrett Jack,Cleveland Cavaliers,2013-11-09,10,0,Jump Shot,3PT Field Goal,23,0,0.8,"Turner, Evan",3.8,78.0,1,2014
+Nicolas Batum,Portland Trail Blazers,2013-12-15,30,0,Jump Shot,3PT Field Goal,26,0,0.6,"Smith, Josh",5.7,81.0,1,2014
+Carmelo Anthony,New York Knicks,2014-01-02,23,0,Jump Shot,3PT Field Goal,22,0,0.7,"Ginobili, Manu",3.7,78.0,1,2014
+Kyle Lowry,Toronto Raptors,2013-12-18,12,1,Jump Shot,3PT Field Goal,26,0,1.0,"Walker, Kemba",5.3,72.0,1,2014
+Stephen Curry,Golden State Warriors,2013-12-19,0,0,Jump Shot,3PT Field Goal,32,1,1.6,"Mills, Patty",2.4,73.0,1,2014
+Andre Iguodala,Golden State Warriors,2014-01-03,0,1,Jump Shot,3PT Field Goal,25,0,0.8,"Teague, Jeff",6.6,75.0,1,2014
+Gerald Henderson,Charlotte Bobcats,2013-12-21,0,0,Jump Shot,3PT Field Goal,25,0,0.4,"Hayward, Gordon",9.9,79.0,1,2014
+James Harden,Houston Rockets,2014-04-06,7,1,Pullup Jump shot,3PT Field Goal,25,1,1.7,"Foye, Randy",4.4,76.0,1,2014
+Jose Calderon,Dallas Mavericks,2013-12-11,1,0,Pullup Jump shot,3PT Field Goal,48,0,0.6,"Curry, Stephen",9.1,75.0,1,2014
+Stephen Curry,Golden State Warriors,2013-12-19,28,1,Pullup Jump shot,3PT Field Goal,26,1,12.8,"Belinelli, Marco",6.4,77.0,1,2014
+Kevin Durant,Oklahoma City Thunder,2013-11-10,13,1,Pullup Jump shot,3PT Field Goal,25,3,3.7,"Ariza, Trevor",2.1,80.0,1,2014
+Stephen Curry,Golden State Warriors,2014-03-30,30,0,Pullup Jump shot,3PT Field Goal,26,2,5.6,"Anthony, Carmelo",4.3,80.0,1,2014
+Kevin Durant,Oklahoma City Thunder,2014-04-04,30,0,Pullup Jump shot,3PT Field Goal,25,6,5.8,"Lin, Jeremy",5.1,75.0,1,2014
+Stephen Curry,Golden State Warriors,2014-01-28,1,0,Pullup Jump shot,3PT Field Goal,26,3,3.9,"Ariza, Trevor",1.9,80.0,1,2014
+Russell Westbrook,Oklahoma City Thunder,2013-11-14,2,1,Pullup Jump shot,3PT Field Goal,28,1,1.6,"Thompson, Klay",5.3,78.0,1,2014
+Rudy Gay,Sacramento Kings,2014-01-15,19,1,Pullup Jump shot,3PT Field Goal,25,7,11.4,"Brewer, Corey",6.2,81.0,1,2014
+DeMar DeRozan,Toronto Raptors,2014-02-19,0,0,Running Bank shot,3PT Field Goal,42,1,2.1,"Snell, Tony",3.1,78.0,1,2014
+Patrick Beverley,Houston Rockets,2014-03-09,0,0,Running Jump Shot,3PT Field Goal,25,2,3.1,"Lillard, Damian",2.9,74.0,1,2014
+Pero Antic,Atlanta Hawks,2013-12-28,3,1,Running Jump Shot,3PT Field Goal,25,1,1.9,"Jefferson, Al",5.1,82.0,1,2014
+Carmelo Anthony,New York Knicks,2013-12-16,1,0,Running Jump Shot,3PT Field Goal,25,7,5.4,"Ariza, Trevor",2.3,80.0,1,2014
+Jameer Nelson,Orlando Magic,2014-01-22,0,0,Step Back Jump shot,3PT Field Goal,26,7,5.4,"Korver, Kyle",4.5,79.0,1,2014
+Draymond Green,Golden State Warriors,2014-04-13,3,1,Step Back Jump shot,3PT Field Goal,25,1,1.8,"Matthews, Wesley",3.5,76.0,1,2014
+LeBron James,Miami Heat,2014-02-12,0,1,Step Back Jump shot,3PT Field Goal,27,7,7.5,"Iguodala, Andre",3.8,78.0,1,2014
+LeBron James,Miami Heat,2014-03-04,0,0,Step Back Jump shot,3PT Field Goal,28,9,10.3,"Howard, Dwight",4.1,82.0,1,2014
+Paul George,Indiana Pacers,2014-03-04,23,0,Step Back Jump shot,3PT Field Goal,26,7,7.0,"Green, Draymond",5.3,78.0,1,2014
+Dirk Nowitzki,Dallas Mavericks,2014-03-25,0,0,Turnaround Jump Shot,3PT Field Goal,34,1,1.3,"Westbrook, Russell",1.8,75.0,1,2014
+Evan Turner,Boston Celtics,2014-12-08,0,0,Jump Shot,2PT Field Goal,19,5,4.8,"Beal, Bradley",3.2,75.0,1,2015
+Blake Griffin,Los Angeles Clippers,2014-12-23,0,0,Fadeaway Jump Shot,3PT Field Goal,23,1,0.0,"Horford, Al",2.1,81.0,1,2015
+Trevor Ariza,Houston Rockets,2015-03-30,0,0,Fadeaway Jump Shot,3PT Field Goal,25,2,1.5,"Ross, Terrence",4.4,78.0,1,2015
+Carmelo Anthony,New York Knicks,2014-11-14,2,1,Jump Bank Shot,3PT Field Goal,25,11,12.0,"Favors, Derrick",3.6,81.0,1,2015
+Kyle Lowry,Toronto Raptors,2014-12-08,0,0,Jump Bank Shot,3PT Field Goal,27,2,3.3,"Afflalo, Arron",4.2,77.0,1,2015
+Marc Gasol,Memphis Grizzlies,2014-12-17,0,1,Jump Bank Shot,3PT Field Goal,29,1,2.3,"Ginobili, Manu",3.8,78.0,1,2015
+Derrick Favors,Utah Jazz,2015-03-25,0,0,Jump Bank Shot,3PT Field Goal,25,0,0.5,"Lillard, Damian",1.4,74.0,1,2015
+Mike Conley,Memphis Grizzlies,2015-03-11,1,0,Jump Shot,3PT Field Goal,28,1,1.7,"Bass, Brandon",7.6,80.0,1,2015
+Mo Williams,Charlotte Hornets,2015-04-04,17,0,Jump Shot,3PT Field Goal,23,0,0.6,"Sampson, JaKarr",5.7,79.0,1,2015
+Trevor Ariza,Houston Rockets,2015-03-30,3,0,Jump Shot,3PT Field Goal,27,1,4.0,"Ross, Terrence",1.5,78.0,1,2015
+Alan Anderson,Brooklyn Nets,2015-02-02,15,1,Jump Shot,3PT Field Goal,23,0,0.8,"Griffin, Blake",4.3,81.0,1,2015
+Spencer Dinwiddie,Detroit Pistons,2015-03-14,3,0,Jump Shot,3PT Field Goal,24,1,2.9,"Favors, Derrick",3.9,81.0,1,2015
+Spencer Dinwiddie,Detroit Pistons,2015-03-14,0,0,Jump Shot,3PT Field Goal,59,1,1.6,"Exum, Dante",4.3,77.0,1,2015
+Kelly Olynyk,Boston Celtics,2014-12-08,4,0,Jump Shot,3PT Field Goal,26,0,1.2,"Beal, Bradley",5.1,75.0,1,2015
+Gordon Hayward,Utah Jazz,2015-02-25,26,0,Jump Shot,3PT Field Goal,24,0,0.8,"Ellington, Wayne",4.7,76.0,1,2015
+Henry Walker,Miami Heat,2015-02-25,2,1,Jump Shot,3PT Field Goal,26,0,0.8,"Harris, Tobias",5.0,80.0,1,2015
+Henry Walker,Miami Heat,2015-03-06,5,0,Jump Shot,3PT Field Goal,23,0,0.7,"Pierce, Paul",4.3,79.0,1,2015
+Tobias Harris,Orlando Magic,2015-03-06,28,1,Jump Shot,3PT Field Goal,22,0,0.6,"Gay, Rudy",8.3,80.0,1,2015
+Marvin Williams,Charlotte Hornets,2014-10-29,0,0,Jump Shot,3PT Field Goal,55,0,0.8,"Parker, Jabari",3.8,80.0,1,2015
+Chase Budinger,Minnesota Timberwolves,2015-03-25,6,1,Jump Shot,3PT Field Goal,22,0,0.9,"Black, Tarik",6.9,81.0,1,2015
+Carmelo Anthony,New York Knicks,2014-12-04,1,0,Jump Shot,3PT Field Goal,25,7,7.2,"James, LeBron",2.5,81.0,1,2015
+Langston Galloway,New York Knicks,2015-02-28,13,1,Jump Shot,3PT Field Goal,25,0,0.7,"Williams, Lou",5.3,73.0,1,2015
+Mike Conley,Memphis Grizzlies,2015-02-28,30,1,Jump Shot,3PT Field Goal,25,0,0.8,"Rubio, Ricky",4.2,75.0,1,2015
+Kevin Martin,Minnesota Timberwolves,2015-02-28,8,0,Jump Shot,3PT Field Goal,23,1,1.7,"Green, Jeff",6.4,80.0,1,2015
+Brook Lopez,Brooklyn Nets,2015-01-09,1,0,Jump Shot,3PT Field Goal,26,2,2.3,"Noel, Nerlens",3.0,82.0,1,2015
+Josh Smith,Detroit Pistons,2014-12-07,1,0,Jump Shot,3PT Field Goal,26,0,0.8,"Adams, Steven",5.7,83.0,1,2015
+Jeremy Lin,Los Angeles Lakers,2015-02-04,7,0,Jump Shot,3PT Field Goal,25,8,11.4,"Middleton, Khris",2.2,79.0,1,2015
+David West,Indiana Pacers,2015-01-09,0,0,Jump Shot,3PT Field Goal,25,0,0.7,"Olynyk, Kelly",6.2,83.0,1,2015
+Kevin Martin,Minnesota Timberwolves,2015-02-04,26,0,Jump Shot,3PT Field Goal,25,0,1.0,"Chalmers, Mario",2.0,74.0,1,2015
+Norris Cole,Miami Heat,2015-02-04,2,0,Jump Shot,3PT Field Goal,25,0,0.7,"Rubio, Ricky",5.1,75.0,1,2015
+Brandon Knight,Milwaukee Bucks,2015-01-19,7,0,Jump Shot,3PT Field Goal,26,0,0.8,"Lowry, Kyle",10.6,72.0,1,2015
+Lou Williams,Toronto Raptors,2015-04-10,9,1,Jump Shot,3PT Field Goal,22,0,0.8,"Oladipo, Victor",5.1,76.0,1,2015
+Trey Burke,Utah Jazz,2015-03-23,1,0,Jump Shot,3PT Field Goal,22,11,11.3,"Wiggins, Andrew",7.1,79.0,1,2015
+Zach LaVine,Minnesota Timberwolves,2015-03-23,12,1,Jump Shot,3PT Field Goal,26,4,5.1,"Exum, Dante",4.5,77.0,1,2015
+Isaiah Thomas,Boston Celtics,2015-04-04,0,0,Jump Shot,3PT Field Goal,24,5,5.6,"Williams, Lou",2.9,73.0,1,2015
+Ish Smith,Philadelphia 76ers,2015-04-04,24,0,Jump Shot,3PT Field Goal,23,0,0.7,"Walker, Kemba",4.4,72.0,1,2015
+Kobe Bryant,Los Angeles Lakers,2015-01-13,1,0,Jump Shot,3PT Field Goal,25,4,5.1,"Deng, Luol",3.2,81.0,1,2015
+Ray McCallum,Sacramento Kings,2015-03-24,0,0,Jump Shot,3PT Field Goal,44,0,0.0,"Smith, Ish",8.0,72.0,1,2015
+Kemba Walker,Charlotte Hornets,2014-12-12,2,0,Jump Shot,3PT Field Goal,26,9,8.8,"Conley, Mike",7.8,73.0,1,2015
+Arron Afflalo,Portland Trail Blazers,2015-03-11,24,0,Jump Shot,3PT Field Goal,23,0,0.8,"Beverley, Patrick",5.4,73.0,1,2015
+Gerald Green,Phoenix Suns,2014-12-12,4,0,Jump Shot,3PT Field Goal,25,0,0.8,"Singler, Kyle",1.5,80.0,1,2015
+Lou Williams,Toronto Raptors,2015-03-24,1,0,Jump Shot,3PT Field Goal,26,21,18.5,"Jackson, Reggie",4.3,75.0,1,2015
+Ersan Ilyasova,Milwaukee Bucks,2015-03-17,1,0,Jump Shot,3PT Field Goal,25,0,0.8,"Davis, Anthony",9.1,82.0,1,2015
+CJ Miles,Indiana Pacers,2015-03-20,0,0,Jump Shot,3PT Field Goal,34,0,0.8,"James, LeBron",5.0,81.0,1,2015
+LeBron James,Cleveland Cavaliers,2015-03-20,2,0,Jump Shot,3PT Field Goal,26,0,0.8,"Hill, Solomon",2.7,78.0,1,2015
+Paul Pierce,Washington Wizards,2015-03-07,24,0,Jump Shot,3PT Field Goal,26,0,1.0,"Middleton, Khris",2.6,79.0,1,2015
+Khris Middleton,Milwaukee Bucks,2015-03-24,0,1,Jump Shot,3PT Field Goal,24,0,0.5,"Wade, Dwyane",4.3,76.0,1,2015
+Victor Oladipo,Orlando Magic,2015-04-10,13,1,Jump Shot,3PT Field Goal,26,4,3.8,"Lowry, Kyle",5.7,72.0,1,2015
+Khris Middleton,Milwaukee Bucks,2015-03-24,12,0,Jump Shot,3PT Field Goal,26,1,1.6,"Haslem, Udonis",3.6,80.0,1,2015
+Russell Westbrook,Oklahoma City Thunder,2015-04-01,3,0,Jump Shot,3PT Field Goal,24,1,1.2,"Rondo, Rajon",1.8,73.0,1,2015
+Russell Westbrook,Oklahoma City Thunder,2015-04-01,7,0,Jump Shot,3PT Field Goal,26,3,3.2,"Rondo, Rajon",1.6,73.0,1,2015
+Dion Waiters,Oklahoma City Thunder,2015-01-09,23,1,Jump Shot,3PT Field Goal,25,0,0.9,"Favors, Derrick",8.9,81.0,1,2015
+Isaiah Thomas,Phoenix Suns,2015-02-02,23,0,Jump Shot,3PT Field Goal,24,0,0.4,"Lee, Courtney",6.0,77.0,1,2015
+Victor Oladipo,Orlando Magic,2015-03-18,4,0,Jump Shot,3PT Field Goal,25,11,8.3,"Rondo, Rajon",1.7,73.0,1,2015
+Jason Richardson,Philadelphia 76ers,2015-03-04,27,1,Jump Shot,3PT Field Goal,25,6,6.0,"Ibaka, Serge",5.6,84.0,1,2015
+Dirk Nowitzki,Dallas Mavericks,2015-02-07,20,1,Jump Shot,3PT Field Goal,24,0,1.0,"Lopez, Robin",5.7,84.0,1,2015
+Nicolas Batum,Portland Trail Blazers,2015-03-04,26,1,Jump Shot,3PT Field Goal,24,2,3.2,"Paul, Chris",15.8,73.0,1,2015
+Jordan Clarkson,Los Angeles Lakers,2015-03-04,16,0,Jump Shot,3PT Field Goal,23,1,1.3,"Wade, Dwyane",4.0,76.0,1,2015
+Reggie Jackson,Detroit Pistons,2015-03-04,3,0,Jump Shot,3PT Field Goal,25,5,3.4,"Cole, Norris",3.9,74.0,1,2015
+Gordon Hayward,Utah Jazz,2015-03-18,7,0,Jump Shot,3PT Field Goal,24,0,2.2,"Pierce, Paul",4.2,79.0,1,2015
+Damian Lillard,Portland Trail Blazers,2015-01-28,2,0,Jump Shot,3PT Field Goal,23,1,1.3,"Dellavedova, Matthew",0.3,75.0,1,2015
+Mike Conley,Memphis Grizzlies,2015-02-02,6,0,Jump Shot,3PT Field Goal,26,17,14.8,"Dragic, Goran",3.9,75.0,1,2015
+Jeremy Lin,Los Angeles Lakers,2015-01-05,13,0,Jump Shot,3PT Field Goal,24,2,2.7,"Lillard, Damian",4.7,74.0,1,2015
+Henry Walker,Miami Heat,2015-04-15,9,1,Jump Shot,3PT Field Goal,26,0,1.0,"Covington, Robert",7.6,79.0,1,2015
+LeBron James,Cleveland Cavaliers,2015-04-08,14,1,Jump Shot,3PT Field Goal,24,21,19.5,"Dudley, Jared",3.4,78.0,1,2015
+Dirk Nowitzki,Dallas Mavericks,2015-04-08,22,1,Jump Shot,3PT Field Goal,24,0,0.8,"Green, Gerald",9.5,79.0,1,2015
+DeMarre Carroll,Atlanta Hawks,2015-04-08,29,0,Jump Shot,3PT Field Goal,23,0,0.7,"Johnson, Joe",4.5,79.0,1,2015
+Bojan Bogdanovic,Brooklyn Nets,2015-04-08,3,0,Jump Shot,3PT Field Goal,24,0,0.9,"Carroll, DeMarre",4.3,78.0,1,2015
+Markieff Morris,Phoenix Suns,2015-04-08,0,0,Jump Shot,3PT Field Goal,24,0,0.6,"Rondo, Rajon",5.5,73.0,1,2015
+Markieff Morris,Phoenix Suns,2015-04-08,11,0,Jump Shot,3PT Field Goal,24,1,2.0,"Aminu, Al-Farouq",3.2,80.0,1,2015
+Jarrett Jack,Brooklyn Nets,2015-04-08,8,0,Jump Shot,3PT Field Goal,23,0,1.0,"Bazemore, Kent",4.0,76.0,1,2015
+Eric Bledsoe,Phoenix Suns,2015-04-08,7,0,Jump Shot,3PT Field Goal,24,1,1.4,"Aminu, Al-Farouq",2.8,80.0,1,2015
+Anthony Tolliver,Detroit Pistons,2015-02-27,0,0,Jump Shot,3PT Field Goal,27,0,0.7,"Thomas, Lance",3.4,80.0,1,2015
+Langston Galloway,New York Knicks,2015-02-27,6,1,Jump Shot,3PT Field Goal,25,4,3.8,"Jackson, Reggie",4.0,75.0,1,2015
+Dwyane Wade,Miami Heat,2015-02-27,0,0,Jump Shot,3PT Field Goal,25,12,11.7,"Cole, Norris",4.9,74.0,1,2015
+Lance Thomas,New York Knicks,2015-04-13,29,0,Jump Shot,3PT Field Goal,22,0,0.6,"Korver, Kyle",3.5,79.0,1,2015
+Steve Blake,Portland Trail Blazers,2014-11-11,17,0,Jump Shot,3PT Field Goal,22,0,0.7,"Kidd-Gilchrist, Michael",4.9,78.0,1,2015
+Damjan Rudez,Indiana Pacers,2015-01-25,21,1,Jump Shot,3PT Field Goal,23,0,0.9,"Oladipo, Victor",5.2,76.0,1,2015
+Evan Turner,Boston Celtics,2015-01-22,1,1,Jump Shot,3PT Field Goal,23,0,0.6,"Matthews, Wesley",6.5,76.0,1,2015
+Kevin Durant,Oklahoma City Thunder,2015-01-21,0,0,Jump Shot,3PT Field Goal,28,0,0.6,Nene,2.5,83.0,1,2015
+Isaiah Thomas,Boston Celtics,2015-03-01,3,0,Jump Shot,3PT Field Goal,25,7,3.7,"Green, Draymond",5.4,78.0,1,2015
+Avery Bradley,Boston Celtics,2015-03-01,18,0,Jump Shot,3PT Field Goal,22,2,2.2,"Barnes, Harrison",2.6,80.0,1,2015
+Tony Parker,San Antonio Spurs,2015-02-04,21,1,Jump Shot,3PT Field Goal,24,0,0.8,"Vucevic, Nikola",4.9,83.0,1,2015
+Kyrie Irving,Cleveland Cavaliers,2015-01-28,6,1,Jump Shot,3PT Field Goal,25,21,19.4,"Batum, Nicolas",5.2,81.0,1,2015
+Caron Butler,Detroit Pistons,2014-12-03,15,1,Jump Shot,3PT Field Goal,24,0,1.2,"Bradley, Avery",3.6,75.0,1,2015
+Gary Neal,Minnesota Timberwolves,2015-03-02,10,0,Jump Shot,3PT Field Goal,25,2,2.6,"Rivers, Austin",1.2,75.0,1,2015
+John Wall,Washington Wizards,2015-02-11,0,0,Jump Shot,3PT Field Goal,25,4,7.0,"Valanciunas, Jonas",5.5,83.0,1,2015
+Rudy Gay,Sacramento Kings,2014-12-09,19,0,Jump Shot,3PT Field Goal,25,0,1.0,"Johnson, Wesley",10.2,79.0,1,2015
+Kyrie Irving,Cleveland Cavaliers,2015-03-12,0,1,Jump Shot,3PT Field Goal,25,1,1.3,"Leonard, Kawhi",3.7,79.0,1,2015
+Jeff Green,Boston Celtics,2014-11-03,20,0,Jump Shot,3PT Field Goal,24,0,0.8,"Nowitzki, Dirk",5.3,84.0,1,2015
+Danny Green,San Antonio Spurs,2014-12-03,2,1,Jump Shot,3PT Field Goal,25,0,1.0,"Anderson, Alan",6.5,78.0,1,2015
+Damian Lillard,Portland Trail Blazers,2015-02-07,0,0,Jump Shot,3PT Field Goal,25,10,18.2,"Ellis, Monta",4.8,75.0,1,2015
+Jarrett Jack,Brooklyn Nets,2015-02-06,13,1,Jump Shot,3PT Field Goal,24,0,1.0,"Calderon, Jose",16.6,75.0,1,2015
+Anthony Davis,New Orleans Pelicans,2015-02-06,0,1,Jump Shot,3PT Field Goal,29,0,0.7,"Durant, Kevin",2.3,82.0,1,2015
+CJ Miles,Indiana Pacers,2015-02-22,26,1,Jump Shot,3PT Field Goal,26,0,0.9,"Iguodala, Andre",11.4,78.0,1,2015
+Trey Burke,Utah Jazz,2014-11-12,0,0,Jump Shot,3PT Field Goal,25,1,1.5,"Korver, Kyle",2.7,79.0,1,2015
+Arron Afflalo,Denver Nuggets,2015-01-23,17,0,Jump Shot,3PT Field Goal,22,0,0.9,"Turner, Evan",7.7,78.0,1,2015
+Trey Burke,Utah Jazz,2014-12-01,5,0,Jump Shot,3PT Field Goal,25,0,0.8,"Lawson, Ty",4.1,71.0,1,2015
+Reggie Jackson,Oklahoma City Thunder,2014-12-31,26,0,Jump Shot,3PT Field Goal,23,0,0.9,"Bledsoe, Eric",7.5,73.0,1,2015
+Mario Chalmers,Miami Heat,2014-12-23,15,0,Jump Shot,3PT Field Goal,25,0,1.5,"Carter-Williams, Michael",3.2,77.0,1,2015
+Monta Ellis,Dallas Mavericks,2015-01-25,1,0,Jump Shot,3PT Field Goal,27,5,4.3,"Pondexter, Quincy",2.1,79.0,1,2015
+JJ Redick,Los Angeles Clippers,2014-12-19,1,0,Jump Shot,3PT Field Goal,24,0,0.0,"Afflalo, Arron",1.7,77.0,1,2015
+Chris Bosh,Miami Heat,2015-01-21,2,0,Jump Shot,3PT Field Goal,26,0,0.9,"Zeller, Cody",4.4,84.0,1,2015
+Iman Shumpert,New York Knicks,2014-11-05,0,0,Jump Shot,3PT Field Goal,76,0,0.4,"Jennings, Brandon",13.7,73.0,1,2015
+Monta Ellis,Dallas Mavericks,2015-02-07,28,0,Jump Shot,3PT Field Goal,25,1,2.0,"Batum, Nicolas",4.0,81.0,1,2015
+Manu Ginobili,San Antonio Spurs,2014-11-15,2,0,Jump Shot,3PT Field Goal,26,0,0.6,"Cousins, DeMarcus",6.8,83.0,1,2015
+Reggie Jackson,Oklahoma City Thunder,2014-11-16,10,0,Jump Shot,3PT Field Goal,27,0,0.0,"Howard, Dwight",5.2,82.0,1,2015
+Ryan Anderson,New Orleans Pelicans,2014-12-10,5,0,Jump Shot,3PT Field Goal,23,0,0.0,"Ellis, Monta",3.8,75.0,1,2015
+Quincy Pondexter,Memphis Grizzlies,2014-11-07,7,0,Jump Shot,3PT Field Goal,24,0,0.8,"Adams, Steven",7.8,83.0,1,2015
+Paul Pierce,Washington Wizards,2014-11-05,0,0,Jump Shot,3PT Field Goal,25,0,1.5,"Hill, Solomon",4.6,78.0,1,2015
+Pablo Prigioni,New York Knicks,2014-12-07,29,0,Jump Shot,3PT Field Goal,24,0,0.9,"Lillard, Damian",5.2,74.0,1,2015
+Tyreke Evans,New Orleans Pelicans,2014-11-29,1,0,Jump Shot,3PT Field Goal,26,2,3.4,"Beal, Bradley",2.8,75.0,1,2015
+Kevin Garnett,Brooklyn Nets,2014-11-19,5,0,Jump Shot,3PT Field Goal,25,1,1.3,"Parker, Jabari",4.1,80.0,1,2015
+Kobe Bryant,Los Angeles Lakers,2014-10-31,16,0,Jump Shot,3PT Field Goal,25,2,2.0,"Crawford, Jamal",3.4,77.0,1,2015
+Wesley Matthews,Portland Trail Blazers,2015-01-24,17,0,Jump Shot,3PT Field Goal,25,0,0.7,"Pierce, Paul",9.6,79.0,1,2015
+Vince Carter,Memphis Grizzlies,2014-12-17,16,0,Jump Shot,3PT Field Goal,26,0,0.6,"Green, Danny",3.8,78.0,1,2015
+Chandler Parsons,Dallas Mavericks,2014-10-28,1,0,Jump Shot,3PT Field Goal,27,0,0.7,"Diaw, Boris",4.2,80.0,1,2015
+Eric Bledsoe,Phoenix Suns,2015-02-21,7,0,Jump Shot,3PT Field Goal,27,6,5.1,"Rose, Derrick",5.3,74.0,1,2015
+Jeff Green,Boston Celtics,2014-11-17,21,0,Jump Shot,3PT Field Goal,27,0,1.0,"Morris, Markieff",3.8,80.0,1,2015
+Carmelo Anthony,New York Knicks,2014-12-02,9,0,Jump Shot,3PT Field Goal,24,7,8.3,"Anderson, Alan",2.4,78.0,1,2015
+Nik Stauskas,Sacramento Kings,2014-12-09,2,0,Jump Shot,3PT Field Goal,24,2,2.8,"Ellington, Wayne",3.6,76.0,1,2015
+Ryan Anderson,New Orleans Pelicans,2014-12-14,26,0,Jump Shot,3PT Field Goal,24,0,0.6,"Green, Draymond",5.2,78.0,1,2015
+Pero Antic,Atlanta Hawks,2014-11-05,0,0,Jump Shot,3PT Field Goal,37,0,0.6,"Diaw, Boris",5.0,80.0,1,2015
+Trey Burke,Utah Jazz,2014-11-05,30,0,Jump Shot,3PT Field Goal,28,0,0.7,"Miller, Mike",4.8,80.0,1,2015
+Rasual Butler,Washington Wizards,2014-12-08,0,0,Jump Shot,3PT Field Goal,28,0,0.6,"Smart, Marcus",2.1,75.0,1,2015
+Jordan Clarkson,Los Angeles Lakers,2015-02-06,13,0,Jump Shot,3PT Field Goal,27,24,20.6,"Vucevic, Nikola",6.5,83.0,1,2015
+Patrick Patterson,Toronto Raptors,2014-12-08,28,1,Jump Shot,3PT Field Goal,26,0,0.8,"Chandler, Wilson",19.2,80.0,1,2015
+Ty Lawson,Denver Nuggets,2014-12-08,4,0,Jump Shot,3PT Field Goal,24,0,0.5,"Patterson, Patrick",8.3,80.0,1,2015
+Eric Bledsoe,Phoenix Suns,2014-12-08,9,0,Jump Shot,3PT Field Goal,26,18,17.6,"Redick, JJ",5.3,75.0,1,2015
+Jamal Crawford,Los Angeles Clippers,2014-12-19,7,0,Jump Shot,3PT Field Goal,24,1,4.6,"Lawson, Ty",3.2,71.0,1,2015
+James Harden,Houston Rockets,2014-12-11,20,1,Jump Shot,3PT Field Goal,25,0,2.3,"Gay, Rudy",2.9,80.0,1,2015
+Victor Oladipo,Orlando Magic,2015-04-11,9,0,Jump Shot,3PT Field Goal,23,0,0.8,"Galloway, Langston",5.0,73.0,1,2015
+Andre Roberson,Oklahoma City Thunder,2014-11-23,8,0,Jump Shot,3PT Field Goal,24,0,0.8,"Barnes, Harrison",4.9,80.0,1,2015
+Kyle Korver,Atlanta Hawks,2014-12-13,3,1,Jump Shot,3PT Field Goal,25,0,0.8,"Fournier, Evan",1.4,79.0,1,2015
+Ben McLemore,Sacramento Kings,2015-02-08,26,0,Jump Shot,3PT Field Goal,25,0,1.0,"Dragic, Goran",11.6,75.0,1,2015
+Mike Conley,Memphis Grizzlies,2014-12-13,0,1,Jump Shot,3PT Field Goal,25,1,1.8,"Carter-Williams, Michael",3.6,77.0,1,2015
+Tyreke Evans,New Orleans Pelicans,2014-12-14,0,0,Jump Shot,3PT Field Goal,27,1,1.6,"Barnes, Harrison",3.2,80.0,1,2015
+Brandon Jennings,Detroit Pistons,2014-11-19,0,0,Jump Shot,3PT Field Goal,52,1,1.2,"Bledsoe, Eric",0.2,73.0,1,2015
+Kevin Garnett,Brooklyn Nets,2014-12-19,2,0,Jump Shot,3PT Field Goal,24,0,0.6,"James, LeBron",4.2,81.0,1,2015
+Paul Pierce,Washington Wizards,2015-01-31,25,1,Jump Shot,3PT Field Goal,25,0,1.0,"Patterson, Patrick",4.7,80.0,1,2015
+Chandler Parsons,Dallas Mavericks,2015-03-29,3,0,Jump Shot,3PT Field Goal,26,2,2.1,"Hill, Solomon",2.1,78.0,1,2015
+Jeff Green,Boston Celtics,2014-11-05,2,0,Jump Shot,3PT Field Goal,26,3,3.2,"Patterson, Patrick",1.8,80.0,1,2015
+Steve Blake,Portland Trail Blazers,2015-01-22,28,0,Jump Shot,3PT Field Goal,24,0,0.8,"Turner, Evan",6.0,78.0,1,2015
+Mario Chalmers,Miami Heat,2015-01-21,1,0,Jump Shot,3PT Field Goal,24,1,2.4,"Walker, Kemba",2.1,72.0,1,2015
+Avery Bradley,Boston Celtics,2015-02-22,0,1,Jump Shot,3PT Field Goal,25,0,2.4,"Lin, Jeremy",1.0,75.0,1,2015
+CJ Miles,Indiana Pacers,2015-03-29,10,0,Jump Shot,3PT Field Goal,27,0,0.7,"Harris, Devin",4.9,75.0,1,2015
+George Hill,Indiana Pacers,2015-02-09,0,0,Jump Shot,3PT Field Goal,25,1,1.2,"Baynes, Aron",4.0,82.0,1,2015
+Monta Ellis,Dallas Mavericks,2015-04-02,28,0,Jump Shot,3PT Field Goal,24,0,0.9,"Ariza, Trevor",8.7,80.0,1,2015
+James Harden,Houston Rockets,2014-12-17,10,1,Jump Shot,3PT Field Goal,25,10,9.5,"Arthur, Darrell",3.7,81.0,1,2015
+Derrick Rose,Chicago Bulls,2015-01-27,0,0,Jump Shot,3PT Field Goal,33,0,0.6,"Thompson, Klay",6.0,78.0,1,2015
+Andre Iguodala,Golden State Warriors,2015-01-27,5,0,Jump Shot,3PT Field Goal,25,6,5.6,"Mirotic, Nikola",4.2,82.0,1,2015
+CJ Miles,Indiana Pacers,2014-12-17,1,0,Jump Shot,3PT Field Goal,30,0,0.3,"Griffin, Blake",3.0,81.0,1,2015
+Kirk Hinrich,Chicago Bulls,2015-01-27,15,1,Jump Shot,3PT Field Goal,26,0,0.8,"Thompson, Klay",12.3,78.0,1,2015
+Mike Conley,Memphis Grizzlies,2014-12-17,7,1,Jump Shot,3PT Field Goal,26,0,0.6,"Ginobili, Manu",5.8,78.0,1,2015
+Brian Roberts,Charlotte Hornets,2015-02-08,0,0,Jump Shot,3PT Field Goal,32,5,3.7,"Hill, George",3.6,75.0,1,2015
+Dante Exum,Utah Jazz,2015-01-22,19,0,Jump Shot,3PT Field Goal,24,0,0.8,"Pachulia, Zaza",7.8,83.0,1,2015
+Jared Dudley,Milwaukee Bucks,2014-12-15,28,1,Jump Shot,3PT Field Goal,24,0,0.7,"Bledsoe, Eric",5.0,73.0,1,2015
+Russell Westbrook,Oklahoma City Thunder,2015-04-05,0,0,Jump Shot,3PT Field Goal,33,1,1.2,"Brewer, Corey",4.6,81.0,1,2015
+Chris Johnson,Philadelphia 76ers,2014-11-07,0,0,Jump Shot,3PT Field Goal,42,2,2.0,"Noah, Joakim",3.9,83.0,1,2015
+Serge Ibaka,Oklahoma City Thunder,2014-11-07,0,0,Jump Shot,3PT Field Goal,25,0,0.7,"Lee, Courtney",4.4,77.0,1,2015
+Kyle Lowry,Toronto Raptors,2015-02-23,0,0,Jump Shot,3PT Field Goal,26,5,3.7,"Fredette, Jimmer",4.3,74.0,1,2015
+Nikola Mirotic,Chicago Bulls,2015-04-01,10,0,Jump Shot,3PT Field Goal,23,4,2.2,"Ilyasova, Ersan",3.3,81.0,1,2015
+Danny Green,San Antonio Spurs,2014-12-17,2,1,Jump Shot,3PT Field Goal,25,0,0.7,"Conley, Mike",4.5,73.0,1,2015
+Arron Afflalo,Denver Nuggets,2014-12-17,0,1,Jump Shot,3PT Field Goal,26,0,0.7,"Beverley, Patrick",3.4,73.0,1,2015
+Reggie Jackson,Oklahoma City Thunder,2014-11-21,0,0,Jump Shot,3PT Field Goal,24,2,2.5,"Anderson, Alan",4.3,78.0,1,2015
+Kirk Hinrich,Chicago Bulls,2014-10-31,3,0,Jump Shot,3PT Field Goal,24,0,0.7,"Irving, Kyrie",2.3,74.0,1,2015
+Kevin Love,Cleveland Cavaliers,2014-10-31,0,0,Jump Shot,3PT Field Goal,26,1,2.5,"Noah, Joakim",4.1,83.0,1,2015
+Dirk Nowitzki,Dallas Mavericks,2014-11-22,6,0,Jump Shot,3PT Field Goal,25,0,2.0,"Harden, James",0.0,77.0,1,2015
+Danny Green,San Antonio Spurs,2014-12-19,5,1,Jump Shot,3PT Field Goal,23,0,0.8,"Aldridge, LaMarcus",7.6,83.0,1,2015
+Danny Green,San Antonio Spurs,2014-12-19,0,0,Jump Shot,3PT Field Goal,24,2,1.4,"Lillard, Damian",1.8,74.0,1,2015
+Courtney Lee,Memphis Grizzlies,2014-11-08,0,0,Jump Shot,3PT Field Goal,28,0,0.7,"Antetokounmpo, Giannis",5.5,83.0,1,2015
+Kawhi Leonard,San Antonio Spurs,2014-11-08,2,0,Jump Shot,3PT Field Goal,22,0,0.6,"Holiday, Jrue",3.8,75.0,1,2015
+Nick Young,Los Angeles Lakers,2014-11-23,0,0,Jump Shot,3PT Field Goal,29,0,0.5,"Afflalo, Arron",3.8,77.0,1,2015
+CJ Miles,Indiana Pacers,2014-12-20,0,0,Jump Shot,3PT Field Goal,29,0,0.6,"Chandler, Wilson",4.8,80.0,1,2015
+Cleanthony Early,New York Knicks,2015-04-01,1,0,Jump Shot,3PT Field Goal,25,0,0.5,"Williams, Deron",1.5,75.0,1,2015
+Damian Lillard,Portland Trail Blazers,2014-12-23,3,1,Jump Shot,3PT Field Goal,25,0,0.0,"Lamb, Jeremy",2.3,77.0,1,2015
+Gordon Hayward,Utah Jazz,2014-11-24,0,0,Jump Shot,3PT Field Goal,24,0,0.0,"Butler, Jimmy",8.7,79.0,1,2015
+Hollis Thompson,Philadelphia 76ers,2014-12-06,13,1,Jump Shot,3PT Field Goal,22,0,0.6,"Singler, Kyle",2.4,80.0,1,2015
+Derrick Rose,Chicago Bulls,2014-12-02,0,0,Jump Shot,3PT Field Goal,26,1,2.6,"Jefferson, Richard",2.2,79.0,1,2015
+Evan Fournier,Orlando Magic,2015-01-02,23,0,Jump Shot,3PT Field Goal,26,1,2.1,"Jack, Jarrett",4.3,75.0,1,2015
+Anthony Morrow,Oklahoma City Thunder,2014-12-31,0,0,Jump Shot,3PT Field Goal,24,1,1.0,"Dragic, Goran",3.3,75.0,1,2015
+Vince Carter,Memphis Grizzlies,2014-12-26,28,1,Jump Shot,3PT Field Goal,28,0,0.7,"Smith, Josh",5.7,81.0,1,2015
+Victor Oladipo,Orlando Magic,2015-04-11,3,0,Jump Shot,3PT Field Goal,26,1,2.1,"Thomas, Lance",2.3,80.0,1,2015
+Kobe Bryant,Los Angeles Lakers,2014-11-28,0,0,Jump Shot,3PT Field Goal,24,1,1.6,"Wiggins, Andrew",5.2,79.0,1,2015
+JR Smith,New York Knicks,2014-11-12,0,0,Jump Shot,3PT Field Goal,26,2,2.4,"Vucevic, Nikola",3.5,83.0,1,2015
+Kobe Bryant,Los Angeles Lakers,2015-01-02,0,0,Jump Shot,3PT Field Goal,25,0,0.5,"Pondexter, Quincy",1.8,79.0,1,2015
+Aaron Brooks,Chicago Bulls,2015-01-03,0,0,Jump Shot,3PT Field Goal,22,0,0.5,"Green, Jeff",13.0,80.0,1,2015
+Danilo Gallinari,Denver Nuggets,2014-12-02,0,0,Jump Shot,3PT Field Goal,27,0,1.0,"Batum, Nicolas",2.9,81.0,1,2015
+Mike Conley,Memphis Grizzlies,2014-11-13,10,1,Jump Shot,3PT Field Goal,25,0,1.5,"Cousins, DeMarcus",2.5,83.0,1,2015
+Serge Ibaka,Oklahoma City Thunder,2014-10-30,0,0,Pullup Jump shot,3PT Field Goal,26,0,2.5,"Hawes, Spencer",2.8,85.0,1,2015
+Stephen Curry,Golden State Warriors,2014-12-02,4,1,Pullup Jump shot,3PT Field Goal,27,6,4.7,"Harris, Tobias",5.2,80.0,1,2015
+John Wall,Washington Wizards,2015-03-25,11,1,Pullup Jump shot,3PT Field Goal,27,6,5.9,"Hill, George",6.1,75.0,1,2015
+Kemba Walker,Charlotte Hornets,2014-10-29,1,1,Pullup Jump shot,3PT Field Goal,25,5,4.2,"Dudley, Jared",4.5,78.0,1,2015
+James Harden,Houston Rockets,2014-11-16,18,0,Step Back Jump shot,3PT Field Goal,25,15,14.8,"Lamb, Jeremy",3.7,77.0,1,2015
+Joe Johnson,Brooklyn Nets,2015-04-08,2,0,Turnaround Jump Shot,3PT Field Goal,24,0,1.0,"Carroll, DeMarre",2.2,78.0,1,2015
+Luis Scola,Toronto Raptors,2015-11-10,0,0,Driving Bank Hook Shot,3PT Field Goal,38,2,0.9,"Anthony, Carmelo",2.6,80.0,1,2016
+Dirk Nowitzki,Dallas Mavericks,2015-12-12,1,0,Fadeaway Jump Shot,3PT Field Goal,25,1,1.4,"Sessions, Ramon",5.4,75.0,1,2016
+Dirk Nowitzki,Dallas Mavericks,2015-12-26,12,0,Fadeaway Jump Shot,3PT Field Goal,24,0,0.7,"Gibson, Taj",3.8,81.0,1,2016
+Damian Lillard,Portland Trail Blazers,2015-11-18,0,0,Fadeaway Jump Shot,3PT Field Goal,35,0,0.6,"Harden, James",3.3,77.0,1,2016
+Victor Oladipo,Orlando Magic,2016-01-22,5,1,Jump Bank Shot,3PT Field Goal,25,5,4.6,"Walker, Kemba",2.4,72.0,1,2016
+Kevin Durant,Oklahoma City Thunder,2015-11-02,5,0,Jump Bank Shot,3PT Field Goal,26,0,2.9,"Harden, James",1.6,77.0,1,2016
+Rodney Hood,Utah Jazz,2015-10-28,5,0,Jump Shot,3PT Field Goal,25,0,0.7,"Caldwell-Pope, Kentavious",3.3,77.0,1,2016
+Victor Oladipo,Orlando Magic,2015-10-30,3,1,Jump Shot,3PT Field Goal,25,7,8.0,"Roberson, Andre",5.8,79.0,1,2016
+Jimmy Butler,Chicago Bulls,2016-01-03,30,1,Jump Shot,3PT Field Goal,22,0,4.1,"Carroll, DeMarre",3.0,78.0,1,2016
+Eric Bledsoe,Phoenix Suns,2015-12-04,0,0,Jump Shot,3PT Field Goal,25,2,2.9,"Temple, Garrett",5.1,77.0,1,2016
+Trey Lyles,Utah Jazz,2016-01-14,0,0,Jump Shot,3PT Field Goal,54,0,0.3,"Collison, Darren",8.8,72.0,1,2016
+Mike Conley,Memphis Grizzlies,2015-12-13,0,0,Jump Shot,3PT Field Goal,64,0,0.1,"Bosh, Chris",4.7,83.0,1,2016
+Eric Gordon,New Orleans Pelicans,2015-12-12,30,0,Jump Shot,3PT Field Goal,27,0,0.9,"Rose, Derrick",4.6,74.0,1,2016
+JJ Redick,Los Angeles Clippers,2015-12-14,19,1,Jump Shot,3PT Field Goal,22,1,1.7,"Caldwell-Pope, Kentavious",3.3,77.0,1,2016
+Gary Neal,Washington Wizards,2015-12-12,7,0,Jump Shot,3PT Field Goal,24,0,0.3,"Felton, Raymond",7.2,73.0,1,2016
+Jonas Jerebko,Boston Celtics,2016-01-02,2,0,Jump Shot,3PT Field Goal,23,0,0.8,"Ellington, Wayne",6.3,76.0,1,2016
+Kyle Lowry,Toronto Raptors,2015-11-28,15,0,Jump Shot,3PT Field Goal,25,6,5.3,"Wall, John",3.2,76.0,1,2016
+Jared Dudley,Washington Wizards,2015-12-30,17,0,Jump Shot,3PT Field Goal,24,0,0.8,"Carroll, DeMarre",6.8,78.0,1,2016
+Jeff Green,Memphis Grizzlies,2015-12-23,26,0,Jump Shot,3PT Field Goal,22,0,0.7,"Dudley, Jared",2.3,78.0,1,2016
+Avery Bradley,Boston Celtics,2016-01-10,0,0,Jump Shot,3PT Field Goal,26,0,0.8,"Green, Jeff",3.9,80.0,1,2016
+Trevor Ariza,Houston Rockets,2016-01-10,17,1,Jump Shot,3PT Field Goal,24,0,0.7,"Hill, George",4.8,75.0,1,2016
+Will Barton,Denver Nuggets,2015-12-14,28,0,Jump Shot,3PT Field Goal,26,5,4.3,"Harden, James",3.7,77.0,1,2016
+Jarrett Jack,Brooklyn Nets,2015-11-28,0,0,Jump Shot,3PT Field Goal,62,1,0.8,"Dellavedova, Matthew",5.4,75.0,1,2016
+John Wall,Washington Wizards,2015-12-30,0,0,Jump Shot,3PT Field Goal,25,0,0.6,"Carroll, DeMarre",2.1,78.0,1,2016
+Monta Ellis,Indiana Pacers,2015-12-30,1,0,Jump Shot,3PT Field Goal,30,0,0.9,"Butler, Jimmy",5.1,79.0,1,2016
+Paul George,Indiana Pacers,2015-12-05,18,0,Jump Shot,3PT Field Goal,24,0,0.8,"Millsap, Elijah",7.0,79.0,1,2016
+Paul George,Indiana Pacers,2015-12-05,1,0,Jump Shot,3PT Field Goal,24,7,7.9,"Hayward, Gordon",5.2,79.0,1,2016
+Robert Covington,Philadelphia 76ers,2015-12-05,14,0,Jump Shot,3PT Field Goal,26,1,1.4,"Barton, Will",3.5,77.0,1,2016
+Danilo Gallinari,Denver Nuggets,2015-12-05,22,0,Jump Shot,3PT Field Goal,26,0,1.2,"Grant, Jerami",5.0,80.0,1,2016
+Jeff Teague,Atlanta Hawks,2015-11-25,6,0,Jump Shot,3PT Field Goal,24,0,0.7,"LaVine, Zach",4.1,78.0,1,2016
+Russell Westbrook,Oklahoma City Thunder,2015-12-03,1,0,Jump Shot,3PT Field Goal,25,2,1.3,"Dragic, Goran",3.0,75.0,1,2016
+Nicolas Batum,Charlotte Hornets,2015-11-23,20,0,Jump Shot,3PT Field Goal,24,0,0.6,"Rondo, Rajon",2.7,73.0,1,2016
+Luis Scola,Toronto Raptors,2015-11-29,0,0,Jump Shot,3PT Field Goal,25,1,1.6,"Bledsoe, Eric",3.0,73.0,1,2016
+Monta Ellis,Indiana Pacers,2015-12-31,13,0,Jump Shot,3PT Field Goal,24,0,0.5,"Middleton, Khris",4.6,79.0,1,2016
+Marcus Thornton,Houston Rockets,2016-01-18,7,1,Jump Shot,3PT Field Goal,26,1,1.0,"Rivers, Austin",2.8,75.0,1,2016
+Avery Bradley,Boston Celtics,2015-11-04,1,0,Jump Shot,3PT Field Goal,25,1,1.9,"George, Paul",3.5,80.0,1,2016
+Jason Terry,Houston Rockets,2015-12-14,15,0,Jump Shot,3PT Field Goal,23,0,0.8,"Harris, Gary",6.4,76.0,1,2016
+Jrue Holiday,New Orleans Pelicans,2015-12-04,8,1,Jump Shot,3PT Field Goal,27,1,1.4,"Dellavedova, Matthew",4.4,75.0,1,2016
+CJ McCollum,Portland Trail Blazers,2015-11-24,1,0,Jump Shot,3PT Field Goal,25,4,4.0,"Noah, Joakim",0.7,83.0,1,2016
+Marco Belinelli,Sacramento Kings,2015-12-06,1,0,Jump Shot,3PT Field Goal,22,0,0.3,"Ibaka, Serge",4.1,84.0,1,2016
+Kevin Durant,Oklahoma City Thunder,2015-10-30,13,1,Jump Shot,3PT Field Goal,25,0,0.6,"Gordon, Aaron",4.7,80.0,1,2016
+Corey Brewer,Houston Rockets,2015-11-18,0,1,Jump Shot,3PT Field Goal,30,0,0.7,"McCollum, CJ",2.8,75.0,1,2016
+Kemba Walker,Charlotte Hornets,2016-01-15,19,1,Jump Shot,3PT Field Goal,26,0,0.6,"Gordon, Eric",4.2,75.0,1,2016
+Danilo Gallinari,Denver Nuggets,2016-01-15,8,0,Jump Shot,3PT Field Goal,23,0,0.8,"Deng, Luol",4.8,81.0,1,2016
+Kobe Bryant,Los Angeles Lakers,2015-11-29,7,0,Jump Shot,3PT Field Goal,27,1,1.3,"George, Paul",3.9,80.0,1,2016
+Nicolas Batum,Charlotte Hornets,2016-01-10,0,0,Jump Shot,3PT Field Goal,28,0,1.7,"Harris, Gary",1.8,76.0,1,2016
+Kemba Walker,Charlotte Hornets,2016-01-10,3,0,Jump Shot,3PT Field Goal,24,3,3.2,"Barton, Will",1.9,77.0,1,2016
+Damian Lillard,Portland Trail Blazers,2016-01-10,3,0,Jump Shot,3PT Field Goal,25,28,22.5,"Westbrook, Russell",2.5,75.0,1,2016
+Kevin Durant,Oklahoma City Thunder,2015-12-17,8,0,Jump Shot,3PT Field Goal,25,1,1.6,"James, LeBron",2.8,81.0,1,2016
+Russell Westbrook,Oklahoma City Thunder,2015-12-17,2,0,Jump Shot,3PT Field Goal,26,1,1.1,"James, LeBron",3.4,81.0,1,2016
+Tyreke Evans,New Orleans Pelicans,2015-12-26,8,0,Jump Shot,3PT Field Goal,25,14,13.8,"Howard, Dwight",6.5,82.0,1,2016
+Dirk Nowitzki,Dallas Mavericks,2016-01-22,4,0,Jump Shot,3PT Field Goal,27,0,1.8,"Waiters, Dion",5.6,75.0,1,2016
+Chandler Parsons,Dallas Mavericks,2016-01-22,1,0,Jump Shot,3PT Field Goal,23,1,2.0,"Singler, Kyle",3.3,80.0,1,2016
+Andrew Wiggins,Minnesota Timberwolves,2015-12-01,1,0,Jump Shot,3PT Field Goal,26,3,1.8,"Gordon, Aaron",2.1,80.0,1,2016
+Tony Parker,San Antonio Spurs,2015-11-30,1,0,Jump Shot,3PT Field Goal,24,0,0.7,"Rose, Derrick",3.9,74.0,1,2016
+Wesley Matthews,Dallas Mavericks,2016-01-20,3,0,Jump Shot,3PT Field Goal,22,4,9.3,"Wiggins, Andrew",0.1,79.0,1,2016
+Shabazz Muhammad,Minnesota Timberwolves,2016-01-20,27,0,Jump Shot,3PT Field Goal,24,0,0.9,"Harris, Devin",5.5,75.0,1,2016
+Russell Westbrook,Oklahoma City Thunder,2015-11-20,8,0,Jump Shot,3PT Field Goal,30,1,1.1,"Anthony, Carmelo",5.3,80.0,1,2016
+Gordon Hayward,Utah Jazz,2015-11-30,1,0,Jump Shot,3PT Field Goal,48,1,1.4,"Curry, Stephen",4.6,75.0,1,2016
+Ersan Ilyasova,Detroit Pistons,2015-12-02,23,0,Jump Shot,3PT Field Goal,26,0,1.5,"Bledsoe, Eric",5.2,73.0,1,2016
+Trevor Ariza,Houston Rockets,2015-11-21,20,0,Jump Shot,3PT Field Goal,25,1,1.5,"Calderon, Jose",3.2,75.0,1,2016
+Kawhi Leonard,San Antonio Spurs,2015-11-30,4,0,Jump Shot,3PT Field Goal,24,2,3.8,"Butler, Jimmy",2.0,79.0,1,2016
+Rodney Hood,Utah Jazz,2015-11-30,5,0,Jump Shot,3PT Field Goal,24,1,1.7,"Iguodala, Andre",3.8,78.0,1,2016
+Damian Lillard,Portland Trail Blazers,2015-12-01,0,0,Jump Shot,3PT Field Goal,28,4,4.5,"Felton, Raymond",4.3,73.0,1,2016
+Charlie Villanueva,Dallas Mavericks,2015-12-01,6,0,Jump Shot,3PT Field Goal,23,0,0.7,"Leonard, Meyers",8.8,84.0,1,2016
+JR Smith,Cleveland Cavaliers,2015-11-17,9,0,Jump Shot,3PT Field Goal,26,0,0.7,"Caldwell-Pope, Kentavious",2.0,77.0,1,2016
+Reggie Jackson,Detroit Pistons,2015-11-29,3,0,Jump Shot,3PT Field Goal,25,10,7.4,"Young, Thaddeus",3.0,80.0,1,2016
+Reggie Jackson,Detroit Pistons,2015-12-22,9,0,Jump Shot,3PT Field Goal,24,21,20.1,"Udrih, Beno",3.7,75.0,1,2016
+Nicolas Batum,Charlotte Hornets,2015-11-27,19,0,Jump Shot,3PT Field Goal,26,0,0.7,"Jefferson, Richard",3.1,79.0,1,2016
+Darren Collison,Sacramento Kings,2015-12-23,9,0,Jump Shot,3PT Field Goal,26,0,1.2,"Ellis, Monta",6.3,75.0,1,2016
+Kawhi Leonard,San Antonio Spurs,2015-11-25,15,1,Jump Shot,3PT Field Goal,24,1,1.4,"Matthews, Wesley",3.8,76.0,1,2016
+Trevor Ariza,Houston Rockets,2015-12-23,3,0,Jump Shot,3PT Field Goal,23,0,0.8,"Payton, Elfrid",2.9,75.0,1,2016
+Jon Leuer,Phoenix Suns,2015-12-07,2,0,Jump Shot,3PT Field Goal,23,0,0.8,"Mirotic, Nikola",19.5,82.0,1,2016
+Jameer Nelson,Denver Nuggets,2015-12-11,1,0,Jump Shot,3PT Field Goal,27,22,20.5,"LaVine, Zach",4.4,78.0,1,2016
+Nicolas Batum,Charlotte Hornets,2015-11-23,14,0,Jump Shot,3PT Field Goal,25,0,0.7,"Rondo, Rajon",2.7,73.0,1,2016
+Avery Bradley,Boston Celtics,2016-01-16,30,1,Jump Shot,3PT Field Goal,26,0,0.8,"Sessions, Ramon",3.8,75.0,1,2016
+Dwyane Wade,Miami Heat,2015-11-06,2,0,Jump Shot,3PT Field Goal,23,0,0.5,"Hill, George",2.2,75.0,1,2016
+Matt Barnes,Memphis Grizzlies,2015-12-09,1,1,Jump Shot,3PT Field Goal,43,3,3.1,"Ilyasova, Ersan",2.7,81.0,1,2016
+Victor Oladipo,Orlando Magic,2015-12-09,5,0,Jump Shot,3PT Field Goal,24,1,1.3,"Bledsoe, Eric",2.6,73.0,1,2016
+Evan Fournier,Orlando Magic,2015-12-09,0,0,Jump Shot,3PT Field Goal,24,2,2.1,"Len, Alex",2.3,84.0,1,2016
+Deron Williams,Dallas Mavericks,2015-12-09,1,0,Jump Shot,3PT Field Goal,24,1,1.8,"Millsap, Paul",4.3,79.0,1,2016
+Courtney Lee,Memphis Grizzlies,2015-11-13,2,0,Jump Shot,3PT Field Goal,23,0,0.8,"McCollum, CJ",5.5,75.0,1,2016
+Randy Foye,Denver Nuggets,2016-01-17,20,1,Jump Shot,3PT Field Goal,25,0,1.0,"Hill, Solomon",10.0,78.0,1,2016
+Danny Green,San Antonio Spurs,2015-10-28,12,0,Jump Shot,3PT Field Goal,24,2,2.0,"Adams, Steven",4.9,83.0,1,2016
+Isaiah Thomas,Boston Celtics,2015-12-11,2,0,Jump Shot,3PT Field Goal,25,16,18.6,"Livingston, Shaun",4.6,79.0,1,2016
+Chris Paul,Los Angeles Clippers,2015-12-10,0,0,Jump Shot,3PT Field Goal,27,3,2.3,"Rose, Derrick",0.8,74.0,1,2016
+Wesley Matthews,Dallas Mavericks,2015-11-22,1,0,Jump Shot,3PT Field Goal,25,5,3.2,"Ibaka, Serge",3.5,84.0,1,2016
+Jose Calderon,New York Knicks,2016-01-08,0,0,Jump Shot,3PT Field Goal,24,0,0.6,"Ginobili, Manu",3.5,78.0,1,2016
+Damian Lillard,Portland Trail Blazers,2015-12-12,0,0,Jump Shot,3PT Field Goal,27,0,1.9,"Afflalo, Arron",4.5,77.0,1,2016
+Carmelo Anthony,New York Knicks,2015-12-10,0,0,Jump Shot,3PT Field Goal,27,4,2.8,"Rondo, Rajon",1.7,73.0,1,2016
+Archie Goodwin,Phoenix Suns,2016-01-23,0,1,Jump Shot,3PT Field Goal,24,20,17.4,"Sefolosha, Thabo",3.1,78.0,1,2016
+Eric Gordon,New Orleans Pelicans,2016-01-08,10,0,Jump Shot,3PT Field Goal,24,0,1.1,"Ellis, Monta",4.4,75.0,1,2016
+Lou Williams,Los Angeles Lakers,2016-01-07,3,0,Jump Shot,3PT Field Goal,24,0,0.9,"Gay, Rudy",3.7,80.0,1,2016
+Monta Ellis,Indiana Pacers,2015-12-28,16,0,Jump Shot,3PT Field Goal,25,0,0.8,"Millsap, Paul",1.2,79.0,1,2016
+Trey Burke,Utah Jazz,2016-01-18,13,1,Jump Shot,3PT Field Goal,23,0,0.8,"Walker, Kemba",2.5,72.0,1,2016
+Carmelo Anthony,New York Knicks,2016-01-18,3,1,Jump Shot,3PT Field Goal,26,7,6.4,"Noel, Nerlens",4.2,82.0,1,2016
+Russell Westbrook,Oklahoma City Thunder,2015-11-02,13,0,Jump Shot,3PT Field Goal,24,2,3.3,"Howard, Dwight",7.5,82.0,1,2016
+Rodney Hood,Utah Jazz,2016-01-02,0,0,Jump Shot,3PT Field Goal,30,0,0.6,"Green, Jeff",4.2,80.0,1,2016
+Zaza Pachulia,Dallas Mavericks,2016-01-18,0,0,Jump Shot,3PT Field Goal,64,3,6.1,"Smart, Marcus",5.1,75.0,1,2016
+Nicolas Batum,Charlotte Hornets,2015-12-12,3,0,Jump Shot,3PT Field Goal,29,0,0.5,"Turner, Evan",2.0,78.0,1,2016
+Kemba Walker,Charlotte Hornets,2016-01-18,0,0,Jump Shot,3PT Field Goal,26,11,10.0,"Hood, Rodney",3.8,80.0,1,2016
+Jeremy Lamb,Charlotte Hornets,2015-11-13,27,0,Jump Shot,3PT Field Goal,23,0,1.2,"Snell, Tony",2.0,78.0,1,2016
+Trey Burke,Utah Jazz,2016-01-18,26,0,Jump Shot,3PT Field Goal,25,1,1.5,"Walker, Kemba",2.7,72.0,1,2016
+Courtney Lee,Memphis Grizzlies,2016-01-18,13,0,Jump Shot,3PT Field Goal,22,0,0.8,"Cunningham, Dante",7.3,80.0,1,2016
+DeMarre Carroll,Toronto Raptors,2016-01-03,7,0,Pullup Jump shot,3PT Field Goal,24,2,1.8,"Gibson, Taj",3.1,81.0,1,2016
+John Wall,Washington Wizards,2015-12-30,8,0,Pullup Jump shot,3PT Field Goal,23,3,3.8,"Biyombo, Bismack",4.5,80.0,1,2016
+Kemba Walker,Charlotte Hornets,2015-10-30,0,0,Pullup Jump shot,3PT Field Goal,25,3,2.3,"Sefolosha, Thabo",3.5,78.0,1,2016
+Andre Iguodala,Golden State Warriors,2015-11-14,5,1,Pullup Jump shot,3PT Field Goal,26,1,1.2,"Johnson, Joe",2.4,79.0,1,2016
+Kevin Martin,Minnesota Timberwolves,2016-01-13,1,0,Pullup Jump shot,3PT Field Goal,24,1,3.0,"Ariza, Trevor",2.0,80.0,1,2016
+Dion Waiters,Oklahoma City Thunder,2015-11-20,1,0,Pullup Jump shot,3PT Field Goal,25,3,4.0,"Calderon, Jose",1.3,75.0,1,2016
+Russell Westbrook,Oklahoma City Thunder,2015-10-30,0,1,Running Jump Shot,3PT Field Goal,37,3,1.5,"Vucevic, Nikola",5.0,83.0,1,2016
+Bradley Beal,Washington Wizards,2015-11-04,0,1,Step Back Jump shot,3PT Field Goal,26,0,0.8,"Leonard, Kawhi",9.5,79.0,1,2016
+Marco Belinelli,Sacramento Kings,2016-01-05,13,1,Step Back Jump shot,3PT Field Goal,23,1,1.8,"Felton, Raymond",3.7,73.0,1,2016
+James Harden,Houston Rockets,2015-11-02,20,0,Step Back Jump shot,3PT Field Goal,24,22,21.8,"Singler, Kyle",2.6,80.0,1,2016
+Danilo Gallinari,Denver Nuggets,2015-11-11,5,0,Turnaround Fadeaway shot,3PT Field Goal,23,3,7.2,"Middleton, Khris",2.6,79.0,1,2016
+DeMar DeRozan,Toronto Raptors,2016-01-03,0,0,Turnaround Jump Shot,3PT Field Goal,24,3,3.2,"Snell, Tony",4.1,78.0,1,2016
+Marco Belinelli,Sacramento Kings,2016-01-05,21,0,Turnaround Jump Shot,3PT Field Goal,24,0,0.8,"Felton, Raymond",4.8,73.0,1,2016
+Klay Thompson,Golden State Warriors,2016-01-13,2,0,Turnaround Jump Shot,3PT Field Goal,24,0,0.8,"Barton, Will",2.5,77.0,1,2016
+Paul George,Indiana Pacers,2016-01-17,10,0,Turnaround Jump Shot,3PT Field Goal,24,0,0.7,"Arthur, Darrell",5.6,81.0,1,2016
