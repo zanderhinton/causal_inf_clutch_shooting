@@ -440,18 +440,18 @@ Count
 
 </table>
 
-Clearly there are some pretty stark differences in shooting percentages
-between non-clutch and clutch shots for both two pointers and three
-pointers. However, we are clearly not comparing apples to apples in
-terms of shot difficulty. For both two pointers and three pointers, the
-average clutch shot attempt is from farther away, has a closer defender
-and is off the back of a longer individual effort (more dribbles and a
-longer touch time). These in total make it obvious that average clutch
-shot attempts on average are much harder than non clutch attempts, and
-cannot be compared directly. A strategy to account for the difficulty of
-a shot is needed in order to make a fair comparison between a clutch
-shot and a non-clutch shot when trying to estimate a causal impact of
-the clutch situation on shooting accuracy.
+There are some pretty stark differences in shooting percentages between
+non-clutch and clutch shots for both two pointers and three pointers.
+However, we are clearly not comparing apples to apples in terms of shot
+difficulty. For both two pointers and three pointers, the average clutch
+shot attempt is from farther away, has a closer defender and is off the
+back of a longer individual effort (more dribbles and a longer touch
+time). These in total make it obvious that average clutch shot attempts
+on average are much harder than non clutch attempts, and cannot be
+compared directly. A strategy to account for the difficulty of a shot is
+needed in order to make a fair comparison between a clutch shot and a
+non-clutch shot when trying to estimate a causal impact of the clutch
+situation on shooting accuracy.
 
 #### Causal Inference in Observational Studies
 
@@ -1506,11 +1506,11 @@ classifier which can output probabilities), with the treatment level
 (`isClutch`) as the dependent variable, and the covariates as the
 independent variables. The outputs of this regression are the estimated
 probabilitities that each observation is a clutch shot. After this
-estimation, we can then match each clutch shot to a non-clutch, not
+estimation, we can then match each clutch shot to a non-clutch shot, not
 explicitly on each covariate value as was done above, but on the
-probability that each shot was a clutch shot, given it’s covariate
-levels. In this way the distribution of covariates should be very
-similar between the matched clutch and non clutch groups.
+probability that each shot was clutch, given it’s covariate levels. In
+this way the distribution of covariates should be very similar between
+the matched clutch and non clutch groups.
 
 #### Fit the propensity score model
 
@@ -1923,7 +1923,7 @@ n
 </table>
 
 The average propensity score for the clutch shots was more than three
-times higherfor clutch three point shots, and about four times higher
+times higher for clutch three point shots, and about four times higher
 for clutch two point shots than the average propensity scores for the
 non clutch twos. This basically just means the distributions of the
 clutch and non-clutch shots are different in terms of the covariates,
@@ -2045,37 +2045,37 @@ Count
 
 <td style="text-align:right;">
 
-35.4
+40.3
 
 </td>
 
 <td style="text-align:right;">
 
-78.4
+78.8
 
 </td>
 
 <td style="text-align:right;">
 
-6.0
+5.8
 
 </td>
 
 <td style="text-align:right;">
 
-6.6
+6.4
 
 </td>
 
 <td style="text-align:right;">
 
-16.3
+16.4
 
 </td>
 
 <td style="text-align:right;">
 
-3.9
+4.0
 
 </td>
 
@@ -2237,25 +2237,25 @@ Count
 
 <td style="text-align:right;">
 
-28.4
+32.8
 
 </td>
 
 <td style="text-align:right;">
 
-78
+78.2
 
 </td>
 
 <td style="text-align:right;">
 
-2.4
+2.5
 
 </td>
 
 <td style="text-align:right;">
 
-3.0
+3.1
 
 </td>
 
@@ -2301,7 +2301,7 @@ Count
 
 <td style="text-align:right;">
 
-78
+78.0
 
 </td>
 
@@ -2432,25 +2432,25 @@ p.value
 
 <td style="text-align:right;">
 
-15.75932
+14.24116
 
 </td>
 
 <td style="text-align:right;">
 
-1026.33714
+1455.39892
 
 </td>
 
 <td style="text-align:right;">
 
-0.01535
+0.00979
 
 </td>
 
 <td style="text-align:right;">
 
-0.98775
+0.99219
 
 </td>
 
@@ -2466,25 +2466,25 @@ isClutch
 
 <td style="text-align:right;font-weight: bold;">
 
-\-0.59858
+\-0.83853
 
 </td>
 
 <td style="text-align:right;font-weight: bold;">
 
-0.16986
+0.16420
 
 </td>
 
 <td style="text-align:right;font-weight: bold;">
 
-\-3.52389
+\-5.10669
 
 </td>
 
 <td style="text-align:right;font-weight: bold;">
 
-0.00043
+0.00000
 
 </td>
 
@@ -2500,25 +2500,25 @@ defender\_distance
 
 <td style="text-align:right;">
 
-0.06339
+0.01014
 
 </td>
 
 <td style="text-align:right;">
 
-0.04726
+0.04563
 
 </td>
 
 <td style="text-align:right;">
 
-1.34137
+0.22220
 
 </td>
 
 <td style="text-align:right;">
 
-0.17980
+0.82416
 
 </td>
 
@@ -2534,25 +2534,25 @@ shot\_distance
 
 <td style="text-align:right;">
 
-0.00371
+0.00706
 
 </td>
 
 <td style="text-align:right;">
 
-0.02847
+0.02711
 
 </td>
 
 <td style="text-align:right;">
 
-0.13015
+0.26058
 
 </td>
 
 <td style="text-align:right;">
 
-0.89645
+0.79441
 
 </td>
 
@@ -2568,25 +2568,25 @@ defender\_height
 
 <td style="text-align:right;">
 
-0.00595
+0.01681
 
 </td>
 
 <td style="text-align:right;">
 
-0.02484
+0.02452
 
 </td>
 
 <td style="text-align:right;">
 
-0.23930
+0.68560
 
 </td>
 
 <td style="text-align:right;">
 
-0.81087
+0.49296
 
 </td>
 
@@ -2602,25 +2602,25 @@ dribbles
 
 <td style="text-align:right;">
 
-0.05305
+0.02016
 
 </td>
 
 <td style="text-align:right;">
 
-0.03722
+0.03583
 
 </td>
 
 <td style="text-align:right;">
 
-1.42508
+0.56266
 
 </td>
 
 <td style="text-align:right;">
 
-0.15413
+0.57367
 
 </td>
 
@@ -2636,25 +2636,25 @@ touch\_time
 
 <td style="text-align:right;">
 
-\-0.07580
+\-0.04097
 
 </td>
 
 <td style="text-align:right;">
 
-0.04421
+0.04221
 
 </td>
 
 <td style="text-align:right;">
 
-\-1.71446
+\-0.97067
 
 </td>
 
 <td style="text-align:right;">
 
-0.08645
+0.33171
 
 </td>
 
@@ -2722,25 +2722,25 @@ p.value
 
 <td style="text-align:right;">
 
-\-12.37408
+\-10.59802
 
 </td>
 
 <td style="text-align:right;">
 
-1455.39897
+882.74578
 
 </td>
 
 <td style="text-align:right;">
 
-\-0.00850
+\-0.01201
 
 </td>
 
 <td style="text-align:right;">
 
-0.99322
+0.99042
 
 </td>
 
@@ -2756,25 +2756,25 @@ isClutch
 
 <td style="text-align:right;font-weight: bold;">
 
-\-0.26868
+\-0.46330
 
 </td>
 
 <td style="text-align:right;font-weight: bold;">
 
-0.15500
+0.15162
 
 </td>
 
 <td style="text-align:right;font-weight: bold;">
 
-\-1.73342
+\-3.05564
 
 </td>
 
 <td style="text-align:right;font-weight: bold;">
 
-0.08302
+0.00225
 
 </td>
 
@@ -2790,25 +2790,25 @@ defender\_distance
 
 <td style="text-align:right;">
 
-0.10238
+0.10574
 
 </td>
 
 <td style="text-align:right;">
 
-0.02958
+0.02876
 
 </td>
 
 <td style="text-align:right;">
 
-3.46091
+3.67607
 
 </td>
 
 <td style="text-align:right;">
 
-0.00054
+0.00024
 
 </td>
 
@@ -2824,25 +2824,25 @@ shot\_distance
 
 <td style="text-align:right;">
 
-\-0.06022
+\-0.07257
 
 </td>
 
 <td style="text-align:right;">
 
-0.01911
+0.02109
 
 </td>
 
 <td style="text-align:right;">
 
-\-3.15168
+\-3.44180
 
 </td>
 
 <td style="text-align:right;">
 
-0.00162
+0.00058
 
 </td>
 
@@ -2858,25 +2858,25 @@ defender\_height
 
 <td style="text-align:right;">
 
-\-0.01047
+\-0.01199
 
 </td>
 
 <td style="text-align:right;">
 
-0.02374
+0.02386
 
 </td>
 
 <td style="text-align:right;">
 
-\-0.44081
+\-0.50268
 
 </td>
 
 <td style="text-align:right;">
 
-0.65935
+0.61519
 
 </td>
 
@@ -2892,25 +2892,25 @@ dribbles
 
 <td style="text-align:right;">
 
-\-0.06224
+\-0.06093
 
 </td>
 
 <td style="text-align:right;">
 
-0.06378
+0.06083
 
 </td>
 
 <td style="text-align:right;">
 
-\-0.97576
+\-1.00148
 
 </td>
 
 <td style="text-align:right;">
 
-0.32918
+0.31659
 
 </td>
 
@@ -2926,25 +2926,25 @@ touch\_time
 
 <td style="text-align:right;">
 
-0.06736
+0.06594
 
 </td>
 
 <td style="text-align:right;">
 
-0.07250
+0.06900
 
 </td>
 
 <td style="text-align:right;">
 
-0.92911
+0.95561
 
 </td>
 
 <td style="text-align:right;">
 
-0.35283
+0.33927
 
 </td>
 
@@ -2956,25 +2956,14 @@ touch\_time
 
 The estimated effect of `Clutch` shots is similar in the propensity
 score matching to the brute force matching, with estimated of odds of a
-shot being ![0.52](https://latex.codecogs.com/png.latex?0.52 "0.52")
-(twos) or ![0.67](https://latex.codecogs.com/png.latex?0.67 "0.67")
-(threes) the odds of making an equivalent non-clutch shots. However, in
-this regression the estimates have more precision based on the much
-larger sample size, and are statistically significant at the
+making a clutch shot being
+![0.52](https://latex.codecogs.com/png.latex?0.52 "0.52") (twos) or
+![0.67](https://latex.codecogs.com/png.latex?0.67 "0.67") (threes) the
+odds of making an equivalent non-clutch shots. However, in this
+regression the estimates have more precision based on the much larger
+sample size, and are statistically significant at the
 ![1\\%](https://latex.codecogs.com/png.latex?1%5C%25 "1\\%")
 significance level. 
-
-As expected based on the summary stats of the matched data, the estimate
-associated with the `isClutch` parameter is negative. Clutch shot
-attempts are estimated to have odds of success only 0.52 (twos) or 0.67
-(threes) times the odds of success for their corresponding non-clutch
-shot attempts, holding all other covariates constant. Interestingly and
-a bit surprisingly to be honest, while there was a large difference in
-field goal percentage between clutch and non-clutch shot attempts even
-in the matched dataframe, the effect is not statistically significant at
-the ![5\\%](https://latex.codecogs.com/png.latex?5%5C%25 "5\\%")
-significance level for both two point shots and three point shots, which
-is perhaps due to the reduced sample sizes.
 
 #### Discussions
 
@@ -2994,7 +2983,7 @@ It’s hard to know if these sort of characteristics could be
 confounding the results, as they would require optical tracking data to
 capture, but it also seems that the mental stress and the body’s
 subsequent physiological response in response to the `clutch` situations
-have a negative causal impact on shot making probabilities.
+may have a negative causal impact on shot making probabilities.
 
 <!-- - Could I have lumped both two point shots and three point shots together? Maybe, as that would have increased the sample sizes and precision of estimates, perhaps leading to statistical significance. I was only including only shots >= 10 feet, so they are all jump shots, and perhaps can all be compared.   -->
 
